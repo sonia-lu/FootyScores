@@ -1,0 +1,104 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group A"
+  },
+  "venue": {
+    "name": "Marseille Stadium",
+    "city": "Marseille"
+  },
+  "kickoff": "2024-07-24T21:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "France",
+    "away": "United States"
+  },
+  "score": {
+    "home": 3,
+    "away": 0,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "France",
+      "player": "Alexandre Lacazette",
+      "minute": 61,
+      "assist": "Michael Olise",
+      "type": "open_play"
+    },
+    {
+      "team": "France",
+      "player": "Michael Olise",
+      "minute": 69,
+      "assist": "Alexandre Lacazette",
+      "type": "open_play"
+    },
+    {
+      "team": "France",
+      "player": "Loic Bade",
+      "minute": 85,
+      "assist": "Joris Chotard",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "France",
+      "formation": "4-2-3-1",
+      "coach": "Thierry Henry",
+      "startingXI": [
+        { "name": "Guillaume Restes", "number": 16, "position": "GK" },
+        { "name": "Castello Lukeba", "number": 2, "position": "DF" },
+        { "name": "Adrien Truffert", "number": 3, "position": "DF" },
+        { "name": "Loic Bade", "number": 4, "position": "DF" },
+        { "name": "Kiliann Sildillia", "number": 5, "position": "DF" },
+        { "name": "Manu Kone", "number": 6, "position": "MF" },
+        { "name": "Michael Olise", "number": 7, "position": "FW" },
+        { "name": "Alexandre Lacazette", "number": 10, "position": "FW" },
+        { "name": "Enzo Millot", "number": 12, "position": "MF" },
+        { "name": "Joris Chotard", "number": 13, "position": "MF" },
+        { "name": "Jean-Philippe Mateta", "number": 14, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Obed Nkambadio", "number": 1, "position": "GK" },
+        { "name": "Maghnes Akliouche", "number": 8, "position": "MF" },
+        { "name": "Arnaud Kalimuendo", "number": 9, "position": "FW" },
+        { "name": "Desire Doue", "number": 11, "position": "MF" },
+        { "name": "Bradley Locko", "number": 15, "position": "DF" },
+        { "name": "Soungoutou Magassa", "number": 17, "position": "DF" },
+        { "name": "Rayan Cherki", "number": 18, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "United States",
+      "formation": "4-2-3-1",
+      "coach": "Marko Mitrovic",
+      "startingXI": [
+        { "name": "Patrick Schulte", "number": 1, "position": "GK" },
+        { "name": "Nathan Harriel", "number": 2, "position": "DF" },
+        { "name": "Walker Zimmerman", "number": 3, "position": "DF" },
+        { "name": "John Tolkin", "number": 5, "position": "DF" },
+        { "name": "Gianluca Busio", "number": 6, "position": "MF" },
+        { "name": "Kevin Paredes", "number": 7, "position": "FW" },
+        { "name": "Tanner Tessmann", "number": 8, "position": "MF" },
+        { "name": "Paxten Aaronson", "number": 11, "position": "FW" },
+        { "name": "Miles Robinson", "number": 12, "position": "DF" },
+        { "name": "Duncan McGuire", "number": 13, "position": "FW" },
+        { "name": "Djordje Mihailovic", "number": 14, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Gabriel Slonina", "number": 18, "position": "GK" },
+        { "name": "Maximilian Dietz", "number": 4, "position": "DF" },
+        { "name": "Griffin Yow", "number": 9, "position": "FW" },
+        { "name": "Taylor Booth", "number": 10, "position": "FW" },
+        { "name": "Benjamin Cremaschi", "number": 15, "position": "MF" },
+        { "name": "Jack McGlynn", "number": 16, "position": "MF" },
+        { "name": "Caleb Wiley", "number": 17, "position": "DF" }
+      ]
+    }
+  }
+}

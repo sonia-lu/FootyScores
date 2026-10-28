@@ -1,0 +1,123 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group D"
+  },
+  "venue": {
+    "name": "Parc des Princes",
+    "city": "Paris"
+  },
+  "kickoff": "2024-07-27T19:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Israel",
+    "away": "Paraguay"
+  },
+  "score": {
+    "home": 2,
+    "away": 4,
+    "halfTime": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "Paraguay",
+      "player": "Marcelo Fernandez",
+      "minute": 25,
+      "assist": "Ronaldo de Jesus",
+      "type": "open_play"
+    },
+    {
+      "team": "Israel",
+      "player": "Omri Gandelman",
+      "minute": 53,
+      "assist": "Stav Lemkin",
+      "type": "open_play"
+    },
+    {
+      "team": "Paraguay",
+      "player": "Julio Enciso",
+      "minute": 69,
+      "assist": "Diego Gomez",
+      "type": "open_play"
+    },
+    {
+      "team": "Israel",
+      "player": "Oscar Gloukh",
+      "minute": 80,
+      "type": "open_play"
+    },
+    {
+      "team": "Paraguay",
+      "player": "Fabian Balbuena",
+      "minute": 93,
+      "assist": "Diego Gomez",
+      "type": "open_play"
+    },
+    {
+      "team": "Paraguay",
+      "player": "Marcelo Fernandez",
+      "minute": 96,
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Israel",
+      "formation": "4-4-2",
+      "coach": "Guy Luzon",
+      "startingXI": [
+        { "name": "Omer Nir On", "number": 1, "position": "GK" },
+        { "name": "Ilay Feingold", "number": 2, "position": "DF" },
+        { "name": "Sean Goldberg", "number": 3, "position": "DF" },
+        { "name": "Stav Lemkin", "number": 4, "position": "DF" },
+        { "name": "Omri Gandelman", "number": 6, "position": "MF" },
+        { "name": "Ethane Azoulay", "number": 8, "position": "MF" },
+        { "name": "Dor Turgeman", "number": 9, "position": "FW" },
+        { "name": "Oscar Gloukh", "number": 10, "position": "MF" },
+        { "name": "Liel Abada", "number": 11, "position": "FW" },
+        { "name": "Noam Ben Harosh", "number": 12, "position": "DF" },
+        { "name": "Ido Shahar", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Niv Eliasi", "number": 18, "position": "GK" },
+        { "name": "Osher Davida", "number": 7, "position": "DF" },
+        { "name": "Elad Madmon", "number": 13, "position": "FW" },
+        { "name": "Ayanaw Ferede", "number": 14, "position": "MF" },
+        { "name": "Adi Yona", "number": 15, "position": "MF" },
+        { "name": "Or Israelov", "number": 16, "position": "DF" },
+        { "name": "Roy Revivo", "number": 5, "position": "DF" }
+      ]
+    },
+    "away": {
+      "team": "Paraguay",
+      "formation": "4-4-2",
+      "coach": "Carlos Jara Saguier",
+      "startingXI": [
+        { "name": "Gatito Fernandez", "number": 1, "position": "GK" },
+        { "name": "Alan Nunez", "number": 2, "position": "DF" },
+        { "name": "Ronaldo de Jesus", "number": 3, "position": "DF" },
+        { "name": "Daniel Rivas", "number": 4, "position": "DF" },
+        { "name": "Marcos Gomez", "number": 6, "position": "MF" },
+        { "name": "Marcelo Fernandez", "number": 7, "position": "FW" },
+        { "name": "Diego Gomez", "number": 8, "position": "MF" },
+        { "name": "Enso Gonzalez", "number": 11, "position": "FW" },
+        { "name": "Fabian Balbuena", "number": 14, "position": "DF" },
+        { "name": "Julio Enciso", "number": 15, "position": "FW" },
+        { "name": "Marcelo Perez", "number": 18, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Rodrigo Frutos", "number": 12, "position": "GK" },
+        { "name": "Gilberto Flores", "number": 5, "position": "DF" },
+        { "name": "Kevin Parzajuk", "number": 9, "position": "FW" },
+        { "name": "Alexis Cantero", "number": 13, "position": "DF" },
+        { "name": "Fernando Roman", "number": 16, "position": "DF" },
+        { "name": "Gustavo Caballero", "number": 17, "position": "FW" },
+        { "name": "Wilder Viera", "number": 10, "position": "MF" }
+      ]
+    }
+  }
+}

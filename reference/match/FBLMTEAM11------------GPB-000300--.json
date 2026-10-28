@@ -1,0 +1,111 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group B"
+  },
+  "venue": {
+    "name": "Lyon Stadium",
+    "city": "Lyon"
+  },
+  "kickoff": "2024-07-27T15:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Argentina",
+    "away": "Iraq"
+  },
+  "score": {
+    "home": 3,
+    "away": 1,
+    "halfTime": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "Argentina",
+      "player": "Thiago Almada",
+      "minute": 13,
+      "assist": "Julian Alvarez",
+      "type": "open_play"
+    },
+    {
+      "team": "Iraq",
+      "player": "Aymen Hussein",
+      "minute": 49,
+      "assist": "Ahmed Hasan",
+      "type": "open_play"
+    },
+    {
+      "team": "Argentina",
+      "player": "Luciano Gondou",
+      "minute": 62,
+      "assist": "Kevin Zenon",
+      "type": "open_play"
+    },
+    {
+      "team": "Argentina",
+      "player": "Ezequiel Fernandez",
+      "minute": 84,
+      "assist": "Julian Alvarez",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Argentina",
+      "formation": "4-4-2",
+      "coach": "Javier Mascherano",
+      "startingXI": [
+        { "name": "Geronimo Rulli", "number": 1, "position": "GK" },
+        { "name": "Marco di Cesare", "number": 2, "position": "DF" },
+        { "name": "Julio Soler", "number": 3, "position": "DF" },
+        { "name": "Joaquin Garcia", "number": 4, "position": "DF" },
+        { "name": "Ezequiel Fernandez", "number": 5, "position": "MF" },
+        { "name": "Cristian Medina", "number": 8, "position": "MF" },
+        { "name": "Julian Alvarez", "number": 9, "position": "FW" },
+        { "name": "Thiago Almada", "number": 10, "position": "MF" },
+        { "name": "Santiago Hezze", "number": 14, "position": "MF" },
+        { "name": "Nicolas Otamendi", "number": 16, "position": "DF" },
+        { "name": "Lucas Beltran", "number": 18, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Leandro Brey", "number": 12, "position": "GK" },
+        { "name": "Bruno Amione", "number": 6, "position": "DF" },
+        { "name": "Kevin Zenon", "number": 7, "position": "MF" },
+        { "name": "Claudio Echeverri", "number": 11, "position": "MF" },
+        { "name": "Gonzalo Lujan", "number": 13, "position": "DF" },
+        { "name": "Luciano Gondou", "number": 15, "position": "FW" },
+        { "name": "Giuliano Simeone", "number": 17, "position": "FW" }
+      ]
+    },
+    "away": {
+      "team": "Iraq",
+      "formation": "4-2-3-1",
+      "coach": "Radhi Shenaishil",
+      "startingXI": [
+        { "name": "Hussein Hasan", "number": 1, "position": "GK" },
+        { "name": "Ahmed Hasan", "number": 5, "position": "DF" },
+        { "name": "Zaid Tahseen", "number": 6, "position": "DF" },
+        { "name": "Ali Jasim", "number": 7, "position": "MF" },
+        { "name": "Ibrahim Bayesh", "number": 8, "position": "MF" },
+        { "name": "Youssef Amyn", "number": 10, "position": "MF" },
+        { "name": "Karrar Mohammed", "number": 14, "position": "MF" },
+        { "name": "Nihad Mohammed", "number": 15, "position": "MF" },
+        { "name": "Mustafa Saadoon", "number": 17, "position": "DF" },
+        { "name": "Aymen Hussein", "number": 18, "position": "FW" },
+        { "name": "Hussein Amer", "number": 20, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Kumel Saadi", "number": 12, "position": "GK" },
+        { "name": "Josef Al Imam", "number": 2, "position": "DF" },
+        { "name": "Hussein Ali", "number": 3, "position": "DF" },
+        { "name": "Hussein Lawend", "number": 9, "position": "FW" },
+        { "name": "Muntadher Mohammed", "number": 11, "position": "MF" },
+        { "name": "Karrar Saad", "number": 13, "position": "DF" },
+        { "name": "Muntadher Abdulameer", "number": 16, "position": "MF" }
+      ]
+    }
+  }
+}

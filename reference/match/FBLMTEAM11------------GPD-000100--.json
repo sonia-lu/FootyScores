@@ -1,0 +1,97 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group D"
+  },
+  "venue": {
+    "name": "Parc des Princes",
+    "city": "Paris"
+  },
+  "kickoff": "2024-07-24T21:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Mali",
+    "away": "Israel"
+  },
+  "score": {
+    "home": 1,
+    "away": 1,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "Israel",
+      "player": "Hamidou Diallo",
+      "minute": 56,
+      "type": "own_goal"
+    },
+    {
+      "team": "Mali",
+      "player": "Cheickna Doumbia",
+      "minute": 63,
+      "assist": "Thiemoko Diarra",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Mali",
+      "formation": "4-4-2",
+      "coach": "Badara Alou Diallo",
+      "startingXI": [
+        { "name": "Lassine Diarra", "number": 1, "position": "GK" },
+        { "name": "Fode Doucoure", "number": 2, "position": "DF" },
+        { "name": "Hamidou Diallo", "number": 3, "position": "DF" },
+        { "name": "Mamadou Tounkara", "number": 4, "position": "DF" },
+        { "name": "Boubacar Traore", "number": 8, "position": "MF" },
+        { "name": "Cheickna Doumbia", "number": 9, "position": "FW" },
+        { "name": "Salam Jiddou", "number": 10, "position": "MF" },
+        { "name": "Thiemoko Diarra", "number": 11, "position": "FW" },
+        { "name": "Brahima Diarra", "number": 13, "position": "MF" },
+        { "name": "Ahmed Diomande", "number": 17, "position": "DF" },
+        { "name": "Moussa Diakite", "number": 18, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Oumar Coulibaly", "number": 16, "position": "GK" },
+        { "name": "Ibrahima Cisse", "number": 5, "position": "DF" },
+        { "name": "Coli Saco", "number": 6, "position": "MF" },
+        { "name": "Wilson Samake", "number": 7, "position": "FW" },
+        { "name": "Issouf Sissokho", "number": 12, "position": "MF" },
+        { "name": "Demba Diallo", "number": 14, "position": "FW" },
+        { "name": "Mohamed Cisset", "number": 15, "position": "DF" }
+      ]
+    },
+    "away": {
+      "team": "Israel",
+      "formation": "4-4-2",
+      "coach": "Guy Luzon",
+      "startingXI": [
+        { "name": "Omer Nir On", "number": 1, "position": "GK" },
+        { "name": "Ilay Feingold", "number": 2, "position": "DF" },
+        { "name": "Sean Goldberg", "number": 3, "position": "DF" },
+        { "name": "Stav Lemkin", "number": 4, "position": "DF" },
+        { "name": "Omri Gandelman", "number": 6, "position": "MF" },
+        { "name": "Dor Turgeman", "number": 9, "position": "FW" },
+        { "name": "Oscar Gloukh", "number": 10, "position": "MF" },
+        { "name": "Liel Abada", "number": 11, "position": "FW" },
+        { "name": "Noam Ben Harosh", "number": 12, "position": "DF" },
+        { "name": "Elad Madmon", "number": 13, "position": "FW" },
+        { "name": "Ayanaw Ferede", "number": 14, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Niv Eliasi", "number": 18, "position": "GK" },
+        { "name": "Roy Sasoon", "number": 22, "position": "GK" },
+        { "name": "Osher Davida", "number": 7, "position": "DF" },
+        { "name": "Ethane Azoulay", "number": 8, "position": "MF" },
+        { "name": "Adi Yona", "number": 15, "position": "MF" },
+        { "name": "Or Israelov", "number": 16, "position": "DF" },
+        { "name": "Ido Shahar", "number": 17, "position": "MF" },
+        { "name": "Roy Revivo", "number": 5, "position": "DF" }
+      ]
+    }
+  }
+}

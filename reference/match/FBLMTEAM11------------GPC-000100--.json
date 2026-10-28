@@ -1,0 +1,103 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group C"
+  },
+  "venue": {
+    "name": "Parc des Princes",
+    "city": "Paris"
+  },
+  "kickoff": "2024-07-24T15:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Uzbekistan",
+    "away": "Spain"
+  },
+  "score": {
+    "home": 1,
+    "away": 2,
+    "halfTime": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "Spain",
+      "player": "Marc Pubill",
+      "minute": 29,
+      "assist": "Abel Ruiz",
+      "type": "open_play"
+    },
+    {
+      "team": "Uzbekistan",
+      "player": "Eldor Shomurodov",
+      "minute": 48,
+      "type": "penalty"
+    },
+    {
+      "team": "Spain",
+      "player": "Sergio Gomez",
+      "minute": 62,
+      "assist": "Juan Miranda",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Uzbekistan",
+      "formation": "4-2-3-1",
+      "coach": "Timur Kapadze",
+      "startingXI": [
+        { "name": "Abduvohid Nematov", "number": 1, "position": "GK" },
+        { "name": "Abdukodir Khusanov", "number": 3, "position": "DF" },
+        { "name": "Khusniddin Alikulov", "number": 4, "position": "DF" },
+        { "name": "Muhammadkodir Hamraliev", "number": 5, "position": "DF" },
+        { "name": "Ibrokhimkhalil Yuldoshev", "number": 6, "position": "DF" },
+        { "name": "Abbosbek Fayzullaev", "number": 7, "position": "MF" },
+        { "name": "Jasurbek Jaloliddinov", "number": 10, "position": "MF" },
+        { "name": "Oston Urunov", "number": 11, "position": "FW" },
+        { "name": "Eldor Shomurodov", "number": 14, "position": "FW" },
+        { "name": "Umarali Rakhmonaliev", "number": 15, "position": "MF" },
+        { "name": "Abdurauf Buriev", "number": 18, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Vladimir Nazarov", "number": 12, "position": "GK" },
+        { "name": "Saidazamat Mirsaidov", "number": 2, "position": "DF" },
+        { "name": "Ruslanbek Jiyanov", "number": 8, "position": "FW" },
+        { "name": "Khusain Norchaev", "number": 9, "position": "FW" },
+        { "name": "Zafarmurod Abdirakhmatov", "number": 13, "position": "DF" },
+        { "name": "Diyor Kholmatov", "number": 17, "position": "MF" },
+        { "name": "Ibrokhim Ibragimov", "number": 19, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "Spain",
+      "formation": "4-2-3-1",
+      "coach": "Santi Denia",
+      "startingXI": [
+        { "name": "Arnau Tenas", "number": 1, "position": "GK" },
+        { "name": "Marc Pubill", "number": 2, "position": "DF" },
+        { "name": "Juan Miranda", "number": 3, "position": "DF" },
+        { "name": "Eric Garcia", "number": 4, "position": "DF" },
+        { "name": "Pau Cubarsi", "number": 5, "position": "DF" },
+        { "name": "Pablo Barrios", "number": 6, "position": "MF" },
+        { "name": "Abel Ruiz", "number": 9, "position": "FW" },
+        { "name": "Alex Baena", "number": 10, "position": "MF" },
+        { "name": "Fermin Lopez", "number": 11, "position": "MF" },
+        { "name": "Aimar Oroz", "number": 14, "position": "MF" },
+        { "name": "Sergio Gomez", "number": 17, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Joan Garcia", "number": 13, "position": "GK" },
+        { "name": "Diego Lopez", "number": 7, "position": "FW" },
+        { "name": "Benat Turrientes", "number": 8, "position": "MF" },
+        { "name": "Jon Pacheco", "number": 12, "position": "DF" },
+        { "name": "Miguel Gutierrez", "number": 15, "position": "DF" },
+        { "name": "Adrian Bernabe", "number": 16, "position": "MF" },
+        { "name": "Samu Omorodion", "number": 18, "position": "FW" }
+      ]
+    }
+  }
+}

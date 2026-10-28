@@ -1,0 +1,103 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Group A"
+  },
+  "venue": {
+    "name": "Geoffroy-Guichard Stadium",
+    "city": "Saint-Etienne"
+  },
+  "kickoff": "2024-07-25T17:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Canada",
+    "away": "New Zealand"
+  },
+  "score": {
+    "home": 2,
+    "away": 1,
+    "halfTime": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "New Zealand",
+      "player": "Mackenzie Barry",
+      "minute": 13,
+      "assist": "Katie Kitching",
+      "type": "open_play"
+    },
+    {
+      "team": "Canada",
+      "player": "Cloe Lacasse",
+      "minute": 49,
+      "type": "open_play"
+    },
+    {
+      "team": "Canada",
+      "player": "Evelyne Viens",
+      "minute": 79,
+      "assist": "Jessie Fleming",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Canada",
+      "formation": "3-4-3",
+      "coach": "Andy Spence",
+      "startingXI": [
+        { "name": "Kailen Sheridan", "number": 1, "position": "GK" },
+        { "name": "Gabrielle Carle", "number": 2, "position": "DF" },
+        { "name": "Kadeisha Buchanan", "number": 3, "position": "DF" },
+        { "name": "Quinn", "number": 5, "position": "MF" },
+        { "name": "Cloe Lacasse", "number": 6, "position": "FW" },
+        { "name": "Ashley Lawrence", "number": 10, "position": "DF" },
+        { "name": "Adriana Leon", "number": 11, "position": "FW" },
+        { "name": "Jade Rose", "number": 12, "position": "DF" },
+        { "name": "Vanessa Gilles", "number": 14, "position": "DF" },
+        { "name": "Nichelle Prince", "number": 15, "position": "FW" },
+        { "name": "Jessie Fleming", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Sabrina D'Angelo", "number": 18, "position": "GK" },
+        { "name": "Evelyne Viens", "number": 4, "position": "FW" },
+        { "name": "Julia Grosso", "number": 7, "position": "MF" },
+        { "name": "Jordyn Huitema", "number": 9, "position": "FW" },
+        { "name": "Simi Awujo", "number": 13, "position": "MF" },
+        { "name": "Janine Beckie", "number": 16, "position": "FW" },
+        { "name": "Shelina Zadorsky", "number": 20, "position": "DF" }
+      ]
+    },
+    "away": {
+      "team": "New Zealand",
+      "formation": "4-4-2",
+      "coach": "Michael Mayne",
+      "startingXI": [
+        { "name": "Anna Leat", "number": 1, "position": "GK" },
+        { "name": "Kate Maria Taylor", "number": 2, "position": "MF" },
+        { "name": "Mackenzie Barry", "number": 3, "position": "DF" },
+        { "name": "C.J. Bott", "number": 4, "position": "DF" },
+        { "name": "Malia Steinmetz", "number": 6, "position": "MF" },
+        { "name": "Indiah-Paige Riley", "number": 10, "position": "FW" },
+        { "name": "Katie Kitching", "number": 11, "position": "MF" },
+        { "name": "Rebekah Stott", "number": 13, "position": "DF" },
+        { "name": "Katie Bowen", "number": 14, "position": "DF" },
+        { "name": "Milly Clegg", "number": 17, "position": "FW" },
+        { "name": "Grace Jale", "number": 18, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Victoria Esson", "number": 12, "position": "GK" },
+        { "name": "Meikayla Moore", "number": 5, "position": "DF" },
+        { "name": "Michaela Foster", "number": 7, "position": "DF" },
+        { "name": "Macey Fraser", "number": 8, "position": "MF" },
+        { "name": "Gabi Rennie", "number": 9, "position": "FW" },
+        { "name": "Ally Green", "number": 15, "position": "FW" },
+        { "name": "Jacqui Hand", "number": 16, "position": "FW" }
+      ]
+    }
+  }
+}

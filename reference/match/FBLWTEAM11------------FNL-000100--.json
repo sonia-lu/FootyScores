@@ -1,0 +1,90 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Gold Medal Match"
+  },
+  "venue": {
+    "name": "Parc des Princes",
+    "city": "Paris"
+  },
+  "kickoff": "2024-08-10T17:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Brazil",
+    "away": "United States"
+  },
+  "score": {
+    "home": 0,
+    "away": 1,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "United States",
+      "player": "Mallory Swanson",
+      "minute": 57,
+      "assist": "Korbin Albert",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Brazil",
+      "formation": "3-4-3",
+      "coach": "Arthur Elias",
+      "startingXI": [
+        { "name": "Lorena", "number": 1, "position": "GK" },
+        { "name": "Tarciane", "number": 3, "position": "DF" },
+        { "name": "Duda Sampaio", "number": 5, "position": "MF" },
+        { "name": "Vitoria Yaya", "number": 8, "position": "MF" },
+        { "name": "Adriana", "number": 9, "position": "FW" },
+        { "name": "Jheniffer", "number": 11, "position": "FW" },
+        { "name": "Yasmim", "number": 13, "position": "DF" },
+        { "name": "Ludmila", "number": 14, "position": "FW" },
+        { "name": "Thais", "number": 15, "position": "DF" },
+        { "name": "Gabi Portilho", "number": 18, "position": "FW" },
+        { "name": "Lauren", "number": 21, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Taina", "number": 12, "position": "GK" },
+        { "name": "Rafaelle", "number": 4, "position": "DF" },
+        { "name": "Marta", "number": 10, "position": "FW" },
+        { "name": "Gabi Nunes", "number": 16, "position": "FW" },
+        { "name": "Ana Vitoria", "number": 17, "position": "MF" },
+        { "name": "Priscila", "number": 19, "position": "FW" },
+        { "name": "Angelina", "number": 20, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "United States",
+      "formation": "4-1-2-3",
+      "coach": "Emma Hayes",
+      "startingXI": [
+        { "name": "Alyssa Naeher", "number": 1, "position": "GK" },
+        { "name": "Emily Fox", "number": 2, "position": "DF" },
+        { "name": "Korbin Albert", "number": 3, "position": "MF" },
+        { "name": "Naomi Girma", "number": 4, "position": "DF" },
+        { "name": "Trinity Rodman", "number": 5, "position": "FW" },
+        { "name": "Crystal Dunn", "number": 7, "position": "FW" },
+        { "name": "Mallory Swanson", "number": 9, "position": "FW" },
+        { "name": "Lindsey Horan", "number": 10, "position": "MF" },
+        { "name": "Sophia Smith", "number": 11, "position": "FW" },
+        { "name": "Tierna Davidson", "number": 12, "position": "DF" },
+        { "name": "Samantha Coffey", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Casey Murphy", "number": 18, "position": "GK" },
+        { "name": "Casey Krueger", "number": 6, "position": "DF" },
+        { "name": "Lynn Williams", "number": 8, "position": "FW" },
+        { "name": "Jenna Nighswonger", "number": 13, "position": "DF" },
+        { "name": "Emily Sonnett", "number": 14, "position": "MF" },
+        { "name": "Jaedyn Shaw", "number": 15, "position": "FW" },
+        { "name": "Rose Lavelle", "number": 16, "position": "MF" }
+      ]
+    }
+  }
+}

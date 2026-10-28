@@ -1,0 +1,95 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group B"
+  },
+  "venue": {
+    "name": "Lyon Stadium",
+    "city": "Lyon"
+  },
+  "kickoff": "2024-07-30T17:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Ukraine",
+    "away": "Argentina"
+  },
+  "score": {
+    "home": 0,
+    "away": 2,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "Argentina",
+      "player": "Thiago Almada",
+      "minute": 47,
+      "type": "open_play"
+    },
+    {
+      "team": "Argentina",
+      "player": "Claudio Echeverri",
+      "minute": 91,
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Ukraine",
+      "formation": "4-1-2-3",
+      "coach": "Ruslan Rotan",
+      "startingXI": [
+        { "name": "Kiril Fesiun", "number": 12, "position": "GK" },
+        { "name": "Illia Krupskyi", "number": 2, "position": "DF" },
+        { "name": "Oleksandr Martyniuk", "number": 3, "position": "DF" },
+        { "name": "Maksym Talovierov", "number": 4, "position": "DF" },
+        { "name": "Valentyn Rubchynskyi", "number": 5, "position": "MF" },
+        { "name": "Mykola Mykhailenko", "number": 8, "position": "MF" },
+        { "name": "Maksym Braharu", "number": 10, "position": "MF" },
+        { "name": "Maksym Khlan", "number": 11, "position": "MF" },
+        { "name": "Danylo Sikan", "number": 14, "position": "FW" },
+        { "name": "Arsenii Batahov", "number": 16, "position": "DF" },
+        { "name": "Dmytro Kryskiv", "number": 18, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Georgiy Yermakov", "number": 1, "position": "GK" },
+        { "name": "Oleksii Sych", "number": 6, "position": "DF" },
+        { "name": "Oleh Ocheretko", "number": 7, "position": "MF" },
+        { "name": "Ihor Krasnopir", "number": 9, "position": "FW" },
+        { "name": "Vladyslav Veleten", "number": 15, "position": "MF" },
+        { "name": "Oleh Fedor", "number": 17, "position": "MF" },
+        { "name": "Volodymyr Saliuk", "number": 13, "position": "DF" }
+      ]
+    },
+    "away": {
+      "team": "Argentina",
+      "formation": "4-4-2",
+      "coach": "Javier Mascherano",
+      "startingXI": [
+        { "name": "Geronimo Rulli", "number": 1, "position": "GK" },
+        { "name": "Marco di Cesare", "number": 2, "position": "DF" },
+        { "name": "Julio Soler", "number": 3, "position": "DF" },
+        { "name": "Ezequiel Fernandez", "number": 5, "position": "MF" },
+        { "name": "Cristian Medina", "number": 8, "position": "MF" },
+        { "name": "Julian Alvarez", "number": 9, "position": "FW" },
+        { "name": "Thiago Almada", "number": 10, "position": "MF" },
+        { "name": "Gonzalo Lujan", "number": 13, "position": "DF" },
+        { "name": "Luciano Gondou", "number": 15, "position": "FW" },
+        { "name": "Nicolas Otamendi", "number": 16, "position": "DF" },
+        { "name": "Giuliano Simeone", "number": 17, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Leandro Brey", "number": 12, "position": "GK" },
+        { "name": "Joaquin Garcia", "number": 4, "position": "DF" },
+        { "name": "Bruno Amione", "number": 6, "position": "DF" },
+        { "name": "Kevin Zenon", "number": 7, "position": "MF" },
+        { "name": "Claudio Echeverri", "number": 11, "position": "MF" },
+        { "name": "Santiago Hezze", "number": 14, "position": "MF" },
+        { "name": "Lucas Beltran", "number": 18, "position": "FW" }
+      ]
+    }
+  }
+}

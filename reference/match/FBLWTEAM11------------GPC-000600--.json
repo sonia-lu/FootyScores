@@ -1,0 +1,109 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Group C"
+  },
+  "venue": {
+    "name": "La Beaujoire Stadium",
+    "city": "Nantes"
+  },
+  "kickoff": "2024-07-31T17:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Japan",
+    "away": "Nigeria"
+  },
+  "score": {
+    "home": 3,
+    "away": 1,
+    "halfTime": {
+      "home": 3,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "Japan",
+      "player": "Maika Hamano",
+      "minute": 22,
+      "assist": "Riko Ueki",
+      "type": "open_play"
+    },
+    {
+      "team": "Japan",
+      "player": "Mina Tanaka",
+      "minute": 32,
+      "type": "open_play"
+    },
+    {
+      "team": "Nigeria",
+      "player": "Jennifer Echegini",
+      "minute": 42,
+      "assist": "Christy Ucheibe",
+      "type": "open_play"
+    },
+    {
+      "team": "Japan",
+      "player": "Hikaru Kitagawa",
+      "minute": 50,
+      "type": "free_kick"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Japan",
+      "formation": "5-3-2",
+      "coach": "Futoshi Ikeda",
+      "startingXI": [
+        { "name": "Ayaka Yamashita", "number": 1, "position": "GK" },
+        { "name": "Saki Kumagai", "number": 4, "position": "DF" },
+        { "name": "Hana Takahashi", "number": 5, "position": "DF" },
+        { "name": "Riko Ueki", "number": 9, "position": "FW" },
+        { "name": "Mina Tanaka", "number": 11, "position": "FW" },
+        { "name": "Hikaru Kitagawa", "number": 13, "position": "DF" },
+        { "name": "Yui Hasegawa", "number": 14, "position": "MF" },
+        { "name": "Honoka Hayashi", "number": 16, "position": "MF" },
+        { "name": "Maika Hamano", "number": 17, "position": "FW" },
+        { "name": "Miyabi Moriya", "number": 20, "position": "DF" },
+        { "name": "Rion Ishikawa", "number": 21, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Chika Hirao", "number": 18, "position": "GK" },
+        { "name": "Moeka Minami", "number": 3, "position": "DF" },
+        { "name": "Hinata Miyazawa", "number": 7, "position": "MF" },
+        { "name": "Kiko Seike", "number": 8, "position": "MF" },
+        { "name": "Fuka Nagano", "number": 10, "position": "MF" },
+        { "name": "Momoko Tanikawa", "number": 12, "position": "MF" },
+        { "name": "Remina Chiba", "number": 19, "position": "FW" }
+      ]
+    },
+    "away": {
+      "team": "Nigeria",
+      "formation": "4-2-3-1",
+      "coach": "Randy Waldrum",
+      "startingXI": [
+        { "name": "Chiamaka Nnadozie", "number": 16, "position": "GK" },
+        { "name": "Michelle Alozie", "number": 2, "position": "DF" },
+        { "name": "Osinachi Ohale", "number": 3, "position": "DF" },
+        { "name": "Chidinma Okeke", "number": 5, "position": "DF" },
+        { "name": "Toni Payne", "number": 7, "position": "MF" },
+        { "name": "Asisat Oshoala", "number": 8, "position": "FW" },
+        { "name": "Christy Ucheibe", "number": 10, "position": "MF" },
+        { "name": "Jennifer Echegini", "number": 11, "position": "MF" },
+        { "name": "Deborah Abiodun", "number": 13, "position": "MF" },
+        { "name": "Blessing Demehin", "number": 14, "position": "DF" },
+        { "name": "Rasheedat Ajibade", "number": 15, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Tochukwu Oluehi", "number": 1, "position": "GK" },
+        { "name": "Nicole Payne", "number": 4, "position": "DF" },
+        { "name": "Esther Okoronkwo", "number": 6, "position": "FW" },
+        { "name": "Chinonyerem Macleans", "number": 9, "position": "FW" },
+        { "name": "Uchenna Kanu", "number": 12, "position": "FW" },
+        { "name": "Chinwendu Ihezuo", "number": 17, "position": "FW" },
+        { "name": "Ifeoma Onumonu", "number": 18, "position": "FW" }
+      ]
+    }
+  }
+}

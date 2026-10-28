@@ -1,0 +1,102 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Group A"
+  },
+  "venue": {
+    "name": "Geoffroy-Guichard Stadium",
+    "city": "Saint-Etienne"
+  },
+  "kickoff": "2024-07-28T21:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "France",
+    "away": "Canada"
+  },
+  "score": {
+    "home": 1,
+    "away": 2,
+    "halfTime": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "France",
+      "player": "Marie-Antoinette Katoto",
+      "minute": 42,
+      "assist": "Kenza Dali",
+      "type": "open_play"
+    },
+    {
+      "team": "Canada",
+      "player": "Jessie Fleming",
+      "minute": 58,
+      "type": "open_play"
+    },
+    {
+      "team": "Canada",
+      "player": "Vanessa Gilles",
+      "minute": 102,
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "France",
+      "formation": "4-1-2-3",
+      "coach": "Herve Renard",
+      "startingXI": [
+        { "name": "Pauline Peyraud-Magnin", "number": 16, "position": "GK" },
+        { "name": "Wendie Renard", "number": 3, "position": "DF" },
+        { "name": "Elisa de Almeida", "number": 5, "position": "DF" },
+        { "name": "Grace Geyoro", "number": 8, "position": "MF" },
+        { "name": "Delphine Cascarino", "number": 10, "position": "FW" },
+        { "name": "Kadidiatou Diani", "number": 11, "position": "FW" },
+        { "name": "Marie-Antoinette Katoto", "number": 12, "position": "FW" },
+        { "name": "Selma Bacha", "number": 13, "position": "DF" },
+        { "name": "Sandie Toletti", "number": 14, "position": "MF" },
+        { "name": "Kenza Dali", "number": 15, "position": "MF" },
+        { "name": "Griedge Mbock Bathy", "number": 18, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Constance Picaud", "number": 1, "position": "GK" },
+        { "name": "Maelle Lakrar", "number": 2, "position": "DF" },
+        { "name": "Estelle Cascarino", "number": 4, "position": "DF" },
+        { "name": "Amandine Henry", "number": 6, "position": "MF" },
+        { "name": "Sakina Karchaoui", "number": 7, "position": "DF" },
+        { "name": "Sandy Baltimore", "number": 17, "position": "FW" },
+        { "name": "Vicki Becho", "number": 20, "position": "FW" }
+      ]
+    },
+    "away": {
+      "team": "Canada",
+      "formation": "5-3-2",
+      "coach": "Andy Spence",
+      "startingXI": [
+        { "name": "Kailen Sheridan", "number": 1, "position": "GK" },
+        { "name": "Gabrielle Carle", "number": 2, "position": "DF" },
+        { "name": "Kadeisha Buchanan", "number": 3, "position": "DF" },
+        { "name": "Quinn", "number": 5, "position": "MF" },
+        { "name": "Jordyn Huitema", "number": 9, "position": "FW" },
+        { "name": "Ashley Lawrence", "number": 10, "position": "DF" },
+        { "name": "Jade Rose", "number": 12, "position": "DF" },
+        { "name": "Simi Awujo", "number": 13, "position": "MF" },
+        { "name": "Vanessa Gilles", "number": 14, "position": "DF" },
+        { "name": "Nichelle Prince", "number": 15, "position": "FW" },
+        { "name": "Jessie Fleming", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Sabrina D'Angelo", "number": 18, "position": "GK" },
+        { "name": "Evelyne Viens", "number": 4, "position": "FW" },
+        { "name": "Cloe Lacasse", "number": 6, "position": "FW" },
+        { "name": "Julia Grosso", "number": 7, "position": "MF" },
+        { "name": "Adriana Leon", "number": 11, "position": "FW" },
+        { "name": "Janine Beckie", "number": 16, "position": "FW" },
+        { "name": "Shelina Zadorsky", "number": 20, "position": "DF" }
+      ]
+    }
+  }
+}

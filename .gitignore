@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Temporary download folder used by --fetch before it replaces data/raw/
+data/raw.tmp/
+
+# macOS
+.DS_Store

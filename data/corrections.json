@@ -1,0 +1,10 @@
+{
+  "FBLMTEAM11------------GPA-000600--": {
+    "reason": "The olympics.com play-by-play only records the 75' goal of USA 3-0 Guinea. The same file's player stats confirm the other two (Mihailovic 1, Paredes 2, Aaronson 1 assist, 2 goals in the first half).",
+    "source": "https://ussoccer.com/stories/2024/07/us-olympic-mens-national-team-vs-guinea-score-result-highlights-goals-stats-standings-match-recap-paris-olympics",
+    "addScorers": [
+      { "team": "United States", "player": "Djordje Mihailovic", "minute": 14, "type": "free_kick" },
+      { "team": "United States", "player": "Kevin Paredes", "minute": 31, "assist": "Paxten Aaronson", "type": "open_play" }
+    ]
+  }
+}

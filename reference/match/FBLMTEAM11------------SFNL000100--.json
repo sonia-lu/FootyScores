@@ -1,0 +1,110 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Semi-final"
+  },
+  "venue": {
+    "name": "Lyon Stadium",
+    "city": "Lyon"
+  },
+  "kickoff": "2024-08-05T21:00:00+02:00",
+  "status": "AET",
+  "teams": {
+    "home": "France",
+    "away": "Egypt"
+  },
+  "score": {
+    "home": 3,
+    "away": 1,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "Egypt",
+      "player": "Mahmoud Saber",
+      "minute": 62,
+      "type": "open_play"
+    },
+    {
+      "team": "France",
+      "player": "Jean-Philippe Mateta",
+      "minute": 83,
+      "assist": "Michael Olise",
+      "type": "open_play"
+    },
+    {
+      "team": "France",
+      "player": "Jean-Philippe Mateta",
+      "minute": 99,
+      "assist": "Kiliann Sildillia",
+      "type": "open_play"
+    },
+    {
+      "team": "France",
+      "player": "Michael Olise",
+      "minute": 108,
+      "assist": "Desire Doue",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "France",
+      "formation": "4-3-1-2",
+      "coach": "Thierry Henry",
+      "startingXI": [
+        { "name": "Guillaume Restes", "number": 16, "position": "GK" },
+        { "name": "Castello Lukeba", "number": 2, "position": "DF" },
+        { "name": "Adrien Truffert", "number": 3, "position": "DF" },
+        { "name": "Loic Bade", "number": 4, "position": "DF" },
+        { "name": "Kiliann Sildillia", "number": 5, "position": "DF" },
+        { "name": "Michael Olise", "number": 7, "position": "FW" },
+        { "name": "Maghnes Akliouche", "number": 8, "position": "MF" },
+        { "name": "Alexandre Lacazette", "number": 10, "position": "FW" },
+        { "name": "Joris Chotard", "number": 13, "position": "MF" },
+        { "name": "Jean-Philippe Mateta", "number": 14, "position": "FW" },
+        { "name": "Andy Diouf", "number": 20, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Obed Nkambadio", "number": 1, "position": "GK" },
+        { "name": "Arnaud Kalimuendo", "number": 9, "position": "FW" },
+        { "name": "Desire Doue", "number": 11, "position": "MF" },
+        { "name": "Bradley Locko", "number": 15, "position": "DF" },
+        { "name": "Soungoutou Magassa", "number": 17, "position": "DF" },
+        { "name": "Rayan Cherki", "number": 18, "position": "MF" },
+        { "name": "Enzo Millot", "number": 12, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "Egypt",
+      "formation": "4-1-2-3",
+      "coach": "Rogerio Micale",
+      "startingXI": [
+        { "name": "Hamza Alaa", "number": 1, "position": "GK" },
+        { "name": "Omar Fayed", "number": 2, "position": "MF" },
+        { "name": "Hossam Abdelmaguid", "number": 5, "position": "DF" },
+        { "name": "Mohamed Shehata", "number": 6, "position": "MF" },
+        { "name": "Mahmoud Saber", "number": 7, "position": "MF" },
+        { "name": "Osama Faisal", "number": 9, "position": "FW" },
+        { "name": "Ibrahim Adel", "number": 10, "position": "MF" },
+        { "name": "Ahmed Koka", "number": 12, "position": "MF" },
+        { "name": "Karim El Debes", "number": 13, "position": "DF" },
+        { "name": "Zizo", "number": 14, "position": "MF" },
+        { "name": "Mohamed Elneny", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Ali El Gabry", "number": 16, "position": "GK" },
+        { "name": "Ahmed Atef", "number": 3, "position": "MF" },
+        { "name": "Ziad Kamal", "number": 8, "position": "MF" },
+        { "name": "Mostafa Saad", "number": 11, "position": "MF" },
+        { "name": "Mohamed Tarek", "number": 15, "position": "DF" },
+        { "name": "Bilal Mazhar", "number": 18, "position": "FW" },
+        { "name": "Mohamed Hamdy", "number": 19, "position": "MF" }
+      ]
+    }
+  }
+}

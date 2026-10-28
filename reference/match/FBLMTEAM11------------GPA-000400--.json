@@ -1,0 +1,116 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group A"
+  },
+  "venue": {
+    "name": "Marseille Stadium",
+    "city": "Marseille"
+  },
+  "kickoff": "2024-07-27T19:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "New Zealand",
+    "away": "United States"
+  },
+  "score": {
+    "home": 1,
+    "away": 4,
+    "halfTime": {
+      "home": 0,
+      "away": 3
+    }
+  },
+  "scorers": [
+    {
+      "team": "United States",
+      "player": "Djordje Mihailovic",
+      "minute": 8,
+      "type": "penalty"
+    },
+    {
+      "team": "United States",
+      "player": "Walker Zimmerman",
+      "minute": 12,
+      "assist": "Djordje Mihailovic",
+      "type": "open_play"
+    },
+    {
+      "team": "United States",
+      "player": "Gianluca Busio",
+      "minute": 30,
+      "type": "open_play"
+    },
+    {
+      "team": "United States",
+      "player": "Paxten Aaronson",
+      "minute": 58,
+      "assist": "Griffin Yow",
+      "type": "open_play"
+    },
+    {
+      "team": "New Zealand",
+      "player": "Jesse Randall",
+      "minute": 78,
+      "assist": "Matthew Garbett",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "New Zealand",
+      "formation": "4-2-3-1",
+      "coach": "Darren Bazeley",
+      "startingXI": [
+        { "name": "Alex Paulsen", "number": 1, "position": "GK" },
+        { "name": "Michael Boxall", "number": 2, "position": "DF" },
+        { "name": "Sam Sutton", "number": 3, "position": "DF" },
+        { "name": "Tyler Bindon", "number": 4, "position": "DF" },
+        { "name": "Finn Surman", "number": 5, "position": "DF" },
+        { "name": "Joe Bell", "number": 6, "position": "MF" },
+        { "name": "Matthew Garbett", "number": 7, "position": "MF" },
+        { "name": "Ben Waine", "number": 9, "position": "FW" },
+        { "name": "Sarpreet Singh", "number": 10, "position": "MF" },
+        { "name": "Jay Herdman", "number": 14, "position": "FW" },
+        { "name": "Lachlan Bayliss", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Kees Sims", "number": 12, "position": "GK" },
+        { "name": "Jesse Randall", "number": 11, "position": "FW" },
+        { "name": "Lukas Kelly-Heald", "number": 13, "position": "DF" },
+        { "name": "Matthew Sheridan", "number": 15, "position": "DF" },
+        { "name": "Fin Conchie", "number": 16, "position": "MF" },
+        { "name": "Oskar van Hattum", "number": 18, "position": "FW" },
+        { "name": "Liam Gillion", "number": 19, "position": "FW" }
+      ]
+    },
+    "away": {
+      "team": "United States",
+      "formation": "4-1-2-3",
+      "coach": "Marko Mitrovic",
+      "startingXI": [
+        { "name": "Patrick Schulte", "number": 1, "position": "GK" },
+        { "name": "Nathan Harriel", "number": 2, "position": "DF" },
+        { "name": "Walker Zimmerman", "number": 3, "position": "DF" },
+        { "name": "John Tolkin", "number": 5, "position": "DF" },
+        { "name": "Gianluca Busio", "number": 6, "position": "MF" },
+        { "name": "Kevin Paredes", "number": 7, "position": "FW" },
+        { "name": "Tanner Tessmann", "number": 8, "position": "MF" },
+        { "name": "Paxten Aaronson", "number": 11, "position": "FW" },
+        { "name": "Miles Robinson", "number": 12, "position": "DF" },
+        { "name": "Duncan McGuire", "number": 13, "position": "FW" },
+        { "name": "Djordje Mihailovic", "number": 14, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Gabriel Slonina", "number": 18, "position": "GK" },
+        { "name": "Maximilian Dietz", "number": 4, "position": "DF" },
+        { "name": "Griffin Yow", "number": 9, "position": "FW" },
+        { "name": "Taylor Booth", "number": 10, "position": "FW" },
+        { "name": "Benjamin Cremaschi", "number": 15, "position": "MF" },
+        { "name": "Jack McGlynn", "number": 16, "position": "MF" },
+        { "name": "Caleb Wiley", "number": 17, "position": "DF" }
+      ]
+    }
+  }
+}

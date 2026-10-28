@@ -1,0 +1,114 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Group A"
+  },
+  "venue": {
+    "name": "Lyon Stadium",
+    "city": "Lyon"
+  },
+  "kickoff": "2024-07-25T21:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "France",
+    "away": "Colombia"
+  },
+  "score": {
+    "home": 3,
+    "away": 2,
+    "halfTime": {
+      "home": 3,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "France",
+      "player": "Marie-Antoinette Katoto",
+      "minute": 6,
+      "type": "open_play"
+    },
+    {
+      "team": "France",
+      "player": "Kenza Dali",
+      "minute": 18,
+      "type": "open_play"
+    },
+    {
+      "team": "France",
+      "player": "Marie-Antoinette Katoto",
+      "minute": 42,
+      "assist": "Kadidiatou Diani",
+      "type": "open_play"
+    },
+    {
+      "team": "Colombia",
+      "player": "Catalina Usme",
+      "minute": 54,
+      "type": "penalty"
+    },
+    {
+      "team": "Colombia",
+      "player": "Manuela Pavi",
+      "minute": 64,
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "France",
+      "formation": "4-1-2-3",
+      "coach": "Herve Renard",
+      "startingXI": [
+        { "name": "Pauline Peyraud-Magnin", "number": 16, "position": "GK" },
+        { "name": "Maelle Lakrar", "number": 2, "position": "DF" },
+        { "name": "Wendie Renard", "number": 3, "position": "DF" },
+        { "name": "Sakina Karchaoui", "number": 7, "position": "DF" },
+        { "name": "Grace Geyoro", "number": 8, "position": "MF" },
+        { "name": "Delphine Cascarino", "number": 10, "position": "FW" },
+        { "name": "Kadidiatou Diani", "number": 11, "position": "FW" },
+        { "name": "Marie-Antoinette Katoto", "number": 12, "position": "FW" },
+        { "name": "Sandie Toletti", "number": 14, "position": "MF" },
+        { "name": "Kenza Dali", "number": 15, "position": "MF" },
+        { "name": "Griedge Mbock Bathy", "number": 18, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Constance Picaud", "number": 1, "position": "GK" },
+        { "name": "Estelle Cascarino", "number": 4, "position": "DF" },
+        { "name": "Amandine Henry", "number": 6, "position": "MF" },
+        { "name": "Eugenie le Sommer", "number": 9, "position": "FW" },
+        { "name": "Selma Bacha", "number": 13, "position": "DF" },
+        { "name": "Sandy Baltimore", "number": 17, "position": "FW" },
+        { "name": "Eve Perisset", "number": 21, "position": "DF" }
+      ]
+    },
+    "away": {
+      "team": "Colombia",
+      "formation": "4-1-2-3",
+      "coach": "Angelo Marsiglia",
+      "startingXI": [
+        { "name": "Katherine Tapia", "number": 12, "position": "GK" },
+        { "name": "Manuela Vanegas", "number": 2, "position": "DF" },
+        { "name": "Daniela Arias", "number": 3, "position": "DF" },
+        { "name": "Daniela Montoya", "number": 6, "position": "MF" },
+        { "name": "Marcela Restrepo", "number": 8, "position": "MF" },
+        { "name": "Mayra Ramirez", "number": 9, "position": "FW" },
+        { "name": "Leicy Santos", "number": 10, "position": "MF" },
+        { "name": "Catalina Usme", "number": 11, "position": "FW" },
+        { "name": "Jorelyn Carabali", "number": 16, "position": "DF" },
+        { "name": "Carolina Arias", "number": 17, "position": "DF" },
+        { "name": "Linda Caicedo", "number": 18, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Sandra Sepulveda", "number": 22, "position": "GK" },
+        { "name": "Daniela Caracas", "number": 4, "position": "DF" },
+        { "name": "Yirleidys Quejada Minota", "number": 5, "position": "DF" },
+        { "name": "Manuela Pavi", "number": 7, "position": "FW" },
+        { "name": "Ilana Izquierdo", "number": 13, "position": "MF" },
+        { "name": "Angela Baron", "number": 14, "position": "DF" },
+        { "name": "Liana Salazar", "number": 15, "position": "MF" }
+      ]
+    }
+  }
+}

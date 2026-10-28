@@ -1,0 +1,104 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Group A"
+  },
+  "venue": {
+    "name": "Lyon Stadium",
+    "city": "Lyon"
+  },
+  "kickoff": "2024-07-31T21:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "New Zealand",
+    "away": "France"
+  },
+  "score": {
+    "home": 1,
+    "away": 2,
+    "halfTime": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "France",
+      "player": "Marie-Antoinette Katoto",
+      "minute": 22,
+      "assist": "Sandy Baltimore",
+      "type": "open_play"
+    },
+    {
+      "team": "New Zealand",
+      "player": "Kate Maria Taylor",
+      "minute": 42,
+      "assist": "C.J. Bott",
+      "type": "open_play"
+    },
+    {
+      "team": "France",
+      "player": "Marie-Antoinette Katoto",
+      "minute": 49,
+      "assist": "Sakina Karchaoui",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "New Zealand",
+      "formation": "4-4-2",
+      "coach": "Michael Mayne",
+      "startingXI": [
+        { "name": "Anna Leat", "number": 1, "position": "GK" },
+        { "name": "Kate Maria Taylor", "number": 2, "position": "MF" },
+        { "name": "C.J. Bott", "number": 4, "position": "DF" },
+        { "name": "Michaela Foster", "number": 7, "position": "DF" },
+        { "name": "Indiah-Paige Riley", "number": 10, "position": "FW" },
+        { "name": "Katie Kitching", "number": 11, "position": "MF" },
+        { "name": "Rebekah Stott", "number": 13, "position": "DF" },
+        { "name": "Katie Bowen", "number": 14, "position": "DF" },
+        { "name": "Jacqui Hand", "number": 16, "position": "FW" },
+        { "name": "Grace Jale", "number": 18, "position": "FW" },
+        { "name": "Annalie Longo", "number": 20, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Victoria Esson", "number": 12, "position": "GK" },
+        { "name": "Mackenzie Barry", "number": 3, "position": "DF" },
+        { "name": "Meikayla Moore", "number": 5, "position": "DF" },
+        { "name": "Malia Steinmetz", "number": 6, "position": "MF" },
+        { "name": "Gabi Rennie", "number": 9, "position": "FW" },
+        { "name": "Ally Green", "number": 15, "position": "FW" },
+        { "name": "Milly Clegg", "number": 17, "position": "FW" }
+      ]
+    },
+    "away": {
+      "team": "France",
+      "formation": "4-1-2-3",
+      "coach": "Herve Renard",
+      "startingXI": [
+        { "name": "Pauline Peyraud-Magnin", "number": 16, "position": "GK" },
+        { "name": "Maelle Lakrar", "number": 2, "position": "DF" },
+        { "name": "Elisa de Almeida", "number": 5, "position": "DF" },
+        { "name": "Amandine Henry", "number": 6, "position": "MF" },
+        { "name": "Sakina Karchaoui", "number": 7, "position": "DF" },
+        { "name": "Grace Geyoro", "number": 8, "position": "MF" },
+        { "name": "Delphine Cascarino", "number": 10, "position": "FW" },
+        { "name": "Marie-Antoinette Katoto", "number": 12, "position": "FW" },
+        { "name": "Selma Bacha", "number": 13, "position": "DF" },
+        { "name": "Sandy Baltimore", "number": 17, "position": "FW" },
+        { "name": "Griedge Mbock Bathy", "number": 18, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Constance Picaud", "number": 1, "position": "GK" },
+        { "name": "Estelle Cascarino", "number": 4, "position": "DF" },
+        { "name": "Eugenie le Sommer", "number": 9, "position": "FW" },
+        { "name": "Kadidiatou Diani", "number": 11, "position": "FW" },
+        { "name": "Sandie Toletti", "number": 14, "position": "MF" },
+        { "name": "Kenza Dali", "number": 15, "position": "MF" },
+        { "name": "Eve Perisset", "number": 21, "position": "DF" }
+      ]
+    }
+  }
+}

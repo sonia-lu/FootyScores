@@ -1,0 +1,90 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group A"
+  },
+  "venue": {
+    "name": "Nice Stadium",
+    "city": "Nice"
+  },
+  "kickoff": "2024-07-27T21:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "France",
+    "away": "Guinea"
+  },
+  "score": {
+    "home": 1,
+    "away": 0,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "France",
+      "player": "Kiliann Sildillia",
+      "minute": 76,
+      "assist": "Michael Olise",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "France",
+      "formation": "4-3-1-2",
+      "coach": "Thierry Henry",
+      "startingXI": [
+        { "name": "Guillaume Restes", "number": 16, "position": "GK" },
+        { "name": "Castello Lukeba", "number": 2, "position": "DF" },
+        { "name": "Adrien Truffert", "number": 3, "position": "DF" },
+        { "name": "Loic Bade", "number": 4, "position": "DF" },
+        { "name": "Kiliann Sildillia", "number": 5, "position": "DF" },
+        { "name": "Manu Kone", "number": 6, "position": "MF" },
+        { "name": "Michael Olise", "number": 7, "position": "FW" },
+        { "name": "Maghnes Akliouche", "number": 8, "position": "MF" },
+        { "name": "Alexandre Lacazette", "number": 10, "position": "FW" },
+        { "name": "Joris Chotard", "number": 13, "position": "MF" },
+        { "name": "Jean-Philippe Mateta", "number": 14, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Obed Nkambadio", "number": 1, "position": "GK" },
+        { "name": "Arnaud Kalimuendo", "number": 9, "position": "FW" },
+        { "name": "Desire Doue", "number": 11, "position": "MF" },
+        { "name": "Enzo Millot", "number": 12, "position": "MF" },
+        { "name": "Bradley Locko", "number": 15, "position": "DF" },
+        { "name": "Soungoutou Magassa", "number": 17, "position": "DF" },
+        { "name": "Rayan Cherki", "number": 18, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "Guinea",
+      "formation": "3-4-3",
+      "coach": "Kaba Diawara",
+      "startingXI": [
+        { "name": "Soumaila Sylla", "number": 1, "position": "GK" },
+        { "name": "Bangaly Cisse", "number": 3, "position": "DF" },
+        { "name": "Mohamed Soumah", "number": 4, "position": "DF" },
+        { "name": "Amadou Diawara", "number": 6, "position": "MF" },
+        { "name": "Aliou Balde", "number": 7, "position": "FW" },
+        { "name": "Naby Keita", "number": 8, "position": "MF" },
+        { "name": "Moriba Ilaix", "number": 10, "position": "MF" },
+        { "name": "Algassime Bah", "number": 12, "position": "FW" },
+        { "name": "Madiou Keita", "number": 13, "position": "DF" },
+        { "name": "Amadou Diallo", "number": 14, "position": "FW" },
+        { "name": "Abdoulaye Toure", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Mory Keita", "number": 16, "position": "GK" },
+        { "name": "Naby Oulare", "number": 2, "position": "DF" },
+        { "name": "Henry Camara", "number": 9, "position": "FW" },
+        { "name": "Ousmane Camara", "number": 11, "position": "FW" },
+        { "name": "Issiaga Camara", "number": 15, "position": "MF" },
+        { "name": "Cherif Camara", "number": 20, "position": "DF" },
+        { "name": "Sekou Tidiany Bangoura", "number": 18, "position": "MF" }
+      ]
+    }
+  }
+}

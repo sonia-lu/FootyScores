@@ -1,0 +1,90 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Semi-final"
+  },
+  "venue": {
+    "name": "Lyon Stadium",
+    "city": "Lyon"
+  },
+  "kickoff": "2024-08-06T18:00:00+02:00",
+  "status": "AET",
+  "teams": {
+    "home": "United States",
+    "away": "Germany"
+  },
+  "score": {
+    "home": 1,
+    "away": 0,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "United States",
+      "player": "Sophia Smith",
+      "minute": 95,
+      "assist": "Mallory Swanson",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "United States",
+      "formation": "4-2-3-1",
+      "coach": "Emma Hayes",
+      "startingXI": [
+        { "name": "Alyssa Naeher", "number": 1, "position": "GK" },
+        { "name": "Emily Fox", "number": 2, "position": "DF" },
+        { "name": "Naomi Girma", "number": 4, "position": "DF" },
+        { "name": "Trinity Rodman", "number": 5, "position": "FW" },
+        { "name": "Crystal Dunn", "number": 7, "position": "FW" },
+        { "name": "Mallory Swanson", "number": 9, "position": "FW" },
+        { "name": "Lindsey Horan", "number": 10, "position": "MF" },
+        { "name": "Sophia Smith", "number": 11, "position": "FW" },
+        { "name": "Tierna Davidson", "number": 12, "position": "DF" },
+        { "name": "Rose Lavelle", "number": 16, "position": "MF" },
+        { "name": "Samantha Coffey", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Casey Murphy", "number": 18, "position": "GK" },
+        { "name": "Korbin Albert", "number": 3, "position": "MF" },
+        { "name": "Casey Krueger", "number": 6, "position": "DF" },
+        { "name": "Lynn Williams", "number": 8, "position": "FW" },
+        { "name": "Jenna Nighswonger", "number": 13, "position": "DF" },
+        { "name": "Emily Sonnett", "number": 14, "position": "MF" },
+        { "name": "Jaedyn Shaw", "number": 15, "position": "FW" }
+      ]
+    },
+    "away": {
+      "team": "Germany",
+      "formation": "4-4-2",
+      "coach": "Horst Hrubesch",
+      "startingXI": [
+        { "name": "Ann-Katrin Berger", "number": 12, "position": "GK" },
+        { "name": "Kathrin Hendrich", "number": 3, "position": "DF" },
+        { "name": "Marina Hegering", "number": 5, "position": "DF" },
+        { "name": "Janina Minge", "number": 6, "position": "MF" },
+        { "name": "Sydney Lohmann", "number": 8, "position": "MF" },
+        { "name": "Sjoeke Nuesken", "number": 9, "position": "MF" },
+        { "name": "Giulia Gwinn", "number": 15, "position": "DF" },
+        { "name": "Jule Brand", "number": 16, "position": "MF" },
+        { "name": "Klara Buehl", "number": 17, "position": "MF" },
+        { "name": "Felicitas Rauch", "number": 19, "position": "DF" },
+        { "name": "Nicole Anyomi", "number": 21, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Merle Frohms", "number": 1, "position": "GK" },
+        { "name": "Sarai Linder", "number": 2, "position": "DF" },
+        { "name": "Bibiane Schulze Solano", "number": 4, "position": "DF" },
+        { "name": "Laura Freigang", "number": 10, "position": "FW" },
+        { "name": "Sara Doorsoun", "number": 13, "position": "DF" },
+        { "name": "Elisa Senss", "number": 14, "position": "MF" },
+        { "name": "Vivien Endemann", "number": 18, "position": "MF" }
+      ]
+    }
+  }
+}

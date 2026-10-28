@@ -1,0 +1,103 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group B"
+  },
+  "venue": {
+    "name": "Geoffroy-Guichard Stadium",
+    "city": "Saint-Etienne"
+  },
+  "kickoff": "2024-07-24T15:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Argentina",
+    "away": "Morocco"
+  },
+  "score": {
+    "home": 1,
+    "away": 2,
+    "halfTime": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "Morocco",
+      "player": "Soufiane Rahimi",
+      "minute": 47,
+      "assist": "Bilal El Khannouss",
+      "type": "open_play"
+    },
+    {
+      "team": "Morocco",
+      "player": "Soufiane Rahimi",
+      "minute": 49,
+      "type": "penalty"
+    },
+    {
+      "team": "Argentina",
+      "player": "Giuliano Simeone",
+      "minute": 68,
+      "assist": "Julio Soler",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Argentina",
+      "formation": "4-4-2",
+      "coach": "Javier Mascherano",
+      "startingXI": [
+        { "name": "Geronimo Rulli", "number": 1, "position": "GK" },
+        { "name": "Marco di Cesare", "number": 2, "position": "DF" },
+        { "name": "Julio Soler", "number": 3, "position": "DF" },
+        { "name": "Joaquin Garcia", "number": 4, "position": "DF" },
+        { "name": "Kevin Zenon", "number": 7, "position": "MF" },
+        { "name": "Cristian Medina", "number": 8, "position": "MF" },
+        { "name": "Julian Alvarez", "number": 9, "position": "FW" },
+        { "name": "Thiago Almada", "number": 10, "position": "MF" },
+        { "name": "Santiago Hezze", "number": 14, "position": "MF" },
+        { "name": "Nicolas Otamendi", "number": 16, "position": "DF" },
+        { "name": "Lucas Beltran", "number": 18, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Leandro Brey", "number": 12, "position": "GK" },
+        { "name": "Ezequiel Fernandez", "number": 5, "position": "MF" },
+        { "name": "Bruno Amione", "number": 6, "position": "DF" },
+        { "name": "Claudio Echeverri", "number": 11, "position": "MF" },
+        { "name": "Gonzalo Lujan", "number": 13, "position": "DF" },
+        { "name": "Luciano Gondou", "number": 15, "position": "FW" },
+        { "name": "Giuliano Simeone", "number": 17, "position": "FW" }
+      ]
+    },
+    "away": {
+      "team": "Morocco",
+      "formation": "4-2-3-1",
+      "coach": "Tarik Sektioui",
+      "startingXI": [
+        { "name": "Munir El Kajoui", "number": 1, "position": "GK" },
+        { "name": "Achraf Hakimi", "number": 2, "position": "DF" },
+        { "name": "Mehdi Boukamir", "number": 4, "position": "DF" },
+        { "name": "Eliesse Ben Seghir", "number": 7, "position": "FW" },
+        { "name": "Bilal El Khannouss", "number": 8, "position": "MF" },
+        { "name": "Soufiane Rahimi", "number": 9, "position": "FW" },
+        { "name": "Ilias Akhomach", "number": 10, "position": "FW" },
+        { "name": "Zakaria El Ouahdi", "number": 11, "position": "DF" },
+        { "name": "Oussama Targhalline", "number": 14, "position": "MF" },
+        { "name": "Oussama El Azzouzi", "number": 17, "position": "MF" },
+        { "name": "Amir Richardson", "number": 18, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Rachid Ghanimi", "number": 12, "position": "GK" },
+        { "name": "Akram Nakach", "number": 3, "position": "DF" },
+        { "name": "Adil Tahif", "number": 5, "position": "DF" },
+        { "name": "Benjamin Bouchouari", "number": 6, "position": "MF" },
+        { "name": "Yassine Kechta", "number": 13, "position": "MF" },
+        { "name": "Mehdi Maouhoub", "number": 15, "position": "FW" },
+        { "name": "Abde Ezzalzouli", "number": 16, "position": "FW" }
+      ]
+    }
+  }
+}

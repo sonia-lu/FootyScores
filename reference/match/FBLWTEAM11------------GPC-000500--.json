@@ -1,0 +1,96 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Group C"
+  },
+  "venue": {
+    "name": "Bordeaux Stadium",
+    "city": "Bordeaux"
+  },
+  "kickoff": "2024-07-31T17:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Brazil",
+    "away": "Spain"
+  },
+  "score": {
+    "home": 0,
+    "away": 2,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "Spain",
+      "player": "Athenea del Castillo",
+      "minute": 68,
+      "type": "open_play"
+    },
+    {
+      "team": "Spain",
+      "player": "Alexia Putellas",
+      "minute": 107,
+      "assist": "Mariona Caldentey",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Brazil",
+      "formation": "4-4-2",
+      "coach": "Arthur Elias",
+      "startingXI": [
+        { "name": "Lorena", "number": 1, "position": "GK" },
+        { "name": "Antonia", "number": 2, "position": "DF" },
+        { "name": "Tarciane", "number": 3, "position": "DF" },
+        { "name": "Duda Sampaio", "number": 5, "position": "MF" },
+        { "name": "Tamires", "number": 6, "position": "DF" },
+        { "name": "Kerolin", "number": 7, "position": "FW" },
+        { "name": "Vitoria Yaya", "number": 8, "position": "MF" },
+        { "name": "Adriana", "number": 9, "position": "FW" },
+        { "name": "Marta", "number": 10, "position": "FW" },
+        { "name": "Ludmila", "number": 14, "position": "FW" },
+        { "name": "Lauren", "number": 21, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Taina", "number": 12, "position": "GK" },
+        { "name": "Jheniffer", "number": 11, "position": "FW" },
+        { "name": "Yasmim", "number": 13, "position": "DF" },
+        { "name": "Thais", "number": 15, "position": "DF" },
+        { "name": "Gabi Nunes", "number": 16, "position": "FW" },
+        { "name": "Ana Vitoria", "number": 17, "position": "MF" },
+        { "name": "Gabi Portilho", "number": 18, "position": "FW" }
+      ]
+    },
+    "away": {
+      "team": "Spain",
+      "formation": "4-1-2-3",
+      "coach": "Montse Tome",
+      "startingXI": [
+        { "name": "Cata Coll", "number": 13, "position": "GK" },
+        { "name": "Ona Batlle", "number": 2, "position": "DF" },
+        { "name": "Teresa Abelleira", "number": 3, "position": "MF" },
+        { "name": "Athenea del Castillo", "number": 7, "position": "FW" },
+        { "name": "Jennifer Hermoso", "number": 10, "position": "FW" },
+        { "name": "Patri Guijarro", "number": 12, "position": "MF" },
+        { "name": "Laia Aleixandri", "number": 14, "position": "DF" },
+        { "name": "Eva Navarro", "number": 15, "position": "FW" },
+        { "name": "Laia Codina", "number": 16, "position": "DF" },
+        { "name": "Lucia Garcia", "number": 17, "position": "FW" },
+        { "name": "Olga Carmona", "number": 18, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Misa Rodriguez", "number": 1, "position": "GK" },
+        { "name": "Aitana Bonmati", "number": 6, "position": "MF" },
+        { "name": "Mariona Caldentey", "number": 8, "position": "FW" },
+        { "name": "Salma Paralluelo", "number": 9, "position": "FW" },
+        { "name": "Alexia Putellas", "number": 11, "position": "MF" },
+        { "name": "Maria Mendez", "number": 20, "position": "DF" },
+        { "name": "Alba Redondo", "number": 21, "position": "FW" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Quarter-final"
+  },
+  "venue": {
+    "name": "Marseille Stadium",
+    "city": "Marseille"
+  },
+  "kickoff": "2024-08-03T19:00:00+02:00",
+  "status": "PEN",
+  "teams": {
+    "home": "Canada",
+    "away": "Germany"
+  },
+  "score": {
+    "home": 0,
+    "away": 0,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [],
+  "lineups": {
+    "home": {
+      "team": "Canada",
+      "formation": "4-2-3-1",
+      "coach": "Andy Spence",
+      "startingXI": [
+        { "name": "Kailen Sheridan", "number": 1, "position": "GK" },
+        { "name": "Gabrielle Carle", "number": 2, "position": "DF" },
+        { "name": "Kadeisha Buchanan", "number": 3, "position": "DF" },
+        { "name": "Quinn", "number": 5, "position": "MF" },
+        { "name": "Jordyn Huitema", "number": 9, "position": "FW" },
+        { "name": "Ashley Lawrence", "number": 10, "position": "DF" },
+        { "name": "Jade Rose", "number": 12, "position": "DF" },
+        { "name": "Simi Awujo", "number": 13, "position": "MF" },
+        { "name": "Vanessa Gilles", "number": 14, "position": "DF" },
+        { "name": "Nichelle Prince", "number": 15, "position": "FW" },
+        { "name": "Jessie Fleming", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Sabrina D'Angelo", "number": 18, "position": "GK" },
+        { "name": "Evelyne Viens", "number": 4, "position": "FW" },
+        { "name": "Cloe Lacasse", "number": 6, "position": "FW" },
+        { "name": "Julia Grosso", "number": 7, "position": "MF" },
+        { "name": "Adriana Leon", "number": 11, "position": "FW" },
+        { "name": "Janine Beckie", "number": 16, "position": "FW" },
+        { "name": "Shelina Zadorsky", "number": 20, "position": "DF" }
+      ]
+    },
+    "away": {
+      "team": "Germany",
+      "formation": "4-4-2",
+      "coach": "Horst Hrubesch",
+      "startingXI": [
+        { "name": "Ann-Katrin Berger", "number": 12, "position": "GK" },
+        { "name": "Kathrin Hendrich", "number": 3, "position": "DF" },
+        { "name": "Marina Hegering", "number": 5, "position": "DF" },
+        { "name": "Janina Minge", "number": 6, "position": "MF" },
+        { "name": "Lea Schueller", "number": 7, "position": "FW" },
+        { "name": "Sjoeke Nuesken", "number": 9, "position": "MF" },
+        { "name": "Alexandra Popp", "number": 11, "position": "FW" },
+        { "name": "Giulia Gwinn", "number": 15, "position": "DF" },
+        { "name": "Jule Brand", "number": 16, "position": "MF" },
+        { "name": "Klara Buehl", "number": 17, "position": "MF" },
+        { "name": "Felicitas Rauch", "number": 19, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Merle Frohms", "number": 1, "position": "GK" },
+        { "name": "Bibiane Schulze Solano", "number": 4, "position": "DF" },
+        { "name": "Sydney Lohmann", "number": 8, "position": "MF" },
+        { "name": "Laura Freigang", "number": 10, "position": "FW" },
+        { "name": "Sara Doorsoun", "number": 13, "position": "DF" },
+        { "name": "Elisa Senss", "number": 14, "position": "MF" },
+        { "name": "Vivien Endemann", "number": 18, "position": "MF" }
+      ]
+    }
+  }
+}

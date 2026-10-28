@@ -1,0 +1,116 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Group B"
+  },
+  "venue": {
+    "name": "Geoffroy-Guichard Stadium",
+    "city": "Saint-Etienne"
+  },
+  "kickoff": "2024-07-31T19:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Zambia",
+    "away": "Germany"
+  },
+  "score": {
+    "home": 1,
+    "away": 4,
+    "halfTime": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "Germany",
+      "player": "Lea Schueller",
+      "minute": 10,
+      "assist": "Klara Buehl",
+      "type": "open_play"
+    },
+    {
+      "team": "Germany",
+      "player": "Klara Buehl",
+      "minute": 47,
+      "assist": "Sjoeke Nuesken",
+      "type": "open_play"
+    },
+    {
+      "team": "Zambia",
+      "player": "Barbra Banda",
+      "minute": 49,
+      "type": "open_play"
+    },
+    {
+      "team": "Germany",
+      "player": "Lea Schueller",
+      "minute": 61,
+      "assist": "Klara Buehl",
+      "type": "open_play"
+    },
+    {
+      "team": "Germany",
+      "player": "Elisa Senss",
+      "minute": 97,
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Zambia",
+      "formation": "4-4-1-1",
+      "coach": "Bruce Mwape",
+      "startingXI": [
+        { "name": "Ngambo Musole", "number": 18, "position": "GK" },
+        { "name": "Lushomo Mweemba", "number": 3, "position": "DF" },
+        { "name": "Esther Siamfuko", "number": 4, "position": "DF" },
+        { "name": "Pauline Zulu", "number": 5, "position": "DF" },
+        { "name": "Ochumba Lubandji", "number": 8, "position": "MF" },
+        { "name": "Kabange Mupopo", "number": 9, "position": "FW" },
+        { "name": "Barbra Banda", "number": 11, "position": "FW" },
+        { "name": "Martha Tembo", "number": 13, "position": "DF" },
+        { "name": "Hellen Chanda", "number": 15, "position": "FW" },
+        { "name": "Racheal Kundananji", "number": 17, "position": "MF" },
+        { "name": "Racheal Nachula", "number": 20, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Catherine Musonda", "number": 1, "position": "GK" },
+        { "name": "Diana Banda", "number": 2, "position": "DF" },
+        { "name": "Rhoda Chileshe", "number": 6, "position": "MF" },
+        { "name": "Avell Chitundu", "number": 12, "position": "MF" },
+        { "name": "Prisca Chilufya", "number": 14, "position": "MF" },
+        { "name": "Esther Muchinga", "number": 16, "position": "DF" },
+        { "name": "Mary Wilombe", "number": 21, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "Germany",
+      "formation": "4-4-2",
+      "coach": "Horst Hrubesch",
+      "startingXI": [
+        { "name": "Ann-Katrin Berger", "number": 12, "position": "GK" },
+        { "name": "Kathrin Hendrich", "number": 3, "position": "DF" },
+        { "name": "Bibiane Schulze Solano", "number": 4, "position": "DF" },
+        { "name": "Janina Minge", "number": 6, "position": "MF" },
+        { "name": "Lea Schueller", "number": 7, "position": "FW" },
+        { "name": "Sjoeke Nuesken", "number": 9, "position": "MF" },
+        { "name": "Alexandra Popp", "number": 11, "position": "FW" },
+        { "name": "Giulia Gwinn", "number": 15, "position": "DF" },
+        { "name": "Jule Brand", "number": 16, "position": "MF" },
+        { "name": "Klara Buehl", "number": 17, "position": "MF" },
+        { "name": "Felicitas Rauch", "number": 19, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Merle Frohms", "number": 1, "position": "GK" },
+        { "name": "Sydney Lohmann", "number": 8, "position": "MF" },
+        { "name": "Laura Freigang", "number": 10, "position": "FW" },
+        { "name": "Sara Doorsoun", "number": 13, "position": "DF" },
+        { "name": "Elisa Senss", "number": 14, "position": "MF" },
+        { "name": "Vivien Endemann", "number": 18, "position": "MF" },
+        { "name": "Marina Hegering", "number": 5, "position": "DF" }
+      ]
+    }
+  }
+}

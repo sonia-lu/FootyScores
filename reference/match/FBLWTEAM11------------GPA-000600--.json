@@ -1,0 +1,90 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Group A"
+  },
+  "venue": {
+    "name": "Nice Stadium",
+    "city": "Nice"
+  },
+  "kickoff": "2024-07-31T21:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Colombia",
+    "away": "Canada"
+  },
+  "score": {
+    "home": 0,
+    "away": 1,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "Canada",
+      "player": "Vanessa Gilles",
+      "minute": 61,
+      "assist": "Jessie Fleming",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Colombia",
+      "formation": "4-2-3-1",
+      "coach": "Angelo Marsiglia",
+      "startingXI": [
+        { "name": "Katherine Tapia", "number": 12, "position": "GK" },
+        { "name": "Manuela Vanegas", "number": 2, "position": "DF" },
+        { "name": "Daniela Arias", "number": 3, "position": "DF" },
+        { "name": "Yirleidys Quejada Minota", "number": 5, "position": "DF" },
+        { "name": "Manuela Pavi", "number": 7, "position": "FW" },
+        { "name": "Marcela Restrepo", "number": 8, "position": "MF" },
+        { "name": "Leicy Santos", "number": 10, "position": "MF" },
+        { "name": "Ilana Izquierdo", "number": 13, "position": "MF" },
+        { "name": "Jorelyn Carabali", "number": 16, "position": "DF" },
+        { "name": "Carolina Arias", "number": 17, "position": "DF" },
+        { "name": "Linda Caicedo", "number": 18, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Sandra Sepulveda", "number": 22, "position": "GK" },
+        { "name": "Daniela Caracas", "number": 4, "position": "DF" },
+        { "name": "Daniela Montoya", "number": 6, "position": "MF" },
+        { "name": "Angela Baron", "number": 14, "position": "DF" },
+        { "name": "Liana Salazar", "number": 15, "position": "MF" },
+        { "name": "Mayra Ramirez", "number": 9, "position": "FW" },
+        { "name": "Catalina Usme", "number": 11, "position": "FW" }
+      ]
+    },
+    "away": {
+      "team": "Canada",
+      "formation": "3-4-3",
+      "coach": "Andy Spence",
+      "startingXI": [
+        { "name": "Kailen Sheridan", "number": 1, "position": "GK" },
+        { "name": "Kadeisha Buchanan", "number": 3, "position": "DF" },
+        { "name": "Cloe Lacasse", "number": 6, "position": "FW" },
+        { "name": "Julia Grosso", "number": 7, "position": "MF" },
+        { "name": "Jordyn Huitema", "number": 9, "position": "FW" },
+        { "name": "Ashley Lawrence", "number": 10, "position": "DF" },
+        { "name": "Adriana Leon", "number": 11, "position": "FW" },
+        { "name": "Jade Rose", "number": 12, "position": "DF" },
+        { "name": "Vanessa Gilles", "number": 14, "position": "DF" },
+        { "name": "Janine Beckie", "number": 16, "position": "FW" },
+        { "name": "Jessie Fleming", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Sabrina D'Angelo", "number": 18, "position": "GK" },
+        { "name": "Gabrielle Carle", "number": 2, "position": "DF" },
+        { "name": "Evelyne Viens", "number": 4, "position": "FW" },
+        { "name": "Quinn", "number": 5, "position": "MF" },
+        { "name": "Simi Awujo", "number": 13, "position": "MF" },
+        { "name": "Nichelle Prince", "number": 15, "position": "FW" },
+        { "name": "Shelina Zadorsky", "number": 20, "position": "DF" }
+      ]
+    }
+  }
+}

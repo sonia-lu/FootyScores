@@ -1,0 +1,102 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Group C"
+  },
+  "venue": {
+    "name": "Parc des Princes",
+    "city": "Paris"
+  },
+  "kickoff": "2024-07-28T17:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Brazil",
+    "away": "Japan"
+  },
+  "score": {
+    "home": 1,
+    "away": 2,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "Brazil",
+      "player": "Jheniffer",
+      "minute": 56,
+      "assist": "Ludmila",
+      "type": "open_play"
+    },
+    {
+      "team": "Japan",
+      "player": "Saki Kumagai",
+      "minute": 92,
+      "type": "penalty"
+    },
+    {
+      "team": "Japan",
+      "player": "Momoko Tanikawa",
+      "minute": 96,
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Brazil",
+      "formation": "5-2-3",
+      "coach": "Arthur Elias",
+      "startingXI": [
+        { "name": "Lorena", "number": 1, "position": "GK" },
+        { "name": "Antonia", "number": 2, "position": "DF" },
+        { "name": "Rafaelle", "number": 4, "position": "DF" },
+        { "name": "Marta", "number": 10, "position": "FW" },
+        { "name": "Yasmim", "number": 13, "position": "DF" },
+        { "name": "Thais", "number": 15, "position": "DF" },
+        { "name": "Gabi Nunes", "number": 16, "position": "FW" },
+        { "name": "Ana Vitoria", "number": 17, "position": "MF" },
+        { "name": "Priscila", "number": 19, "position": "FW" },
+        { "name": "Angelina", "number": 20, "position": "MF" },
+        { "name": "Lauren", "number": 21, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Taina", "number": 12, "position": "GK" },
+        { "name": "Tarciane", "number": 3, "position": "DF" },
+        { "name": "Duda Sampaio", "number": 5, "position": "MF" },
+        { "name": "Kerolin", "number": 7, "position": "FW" },
+        { "name": "Jheniffer", "number": 11, "position": "FW" },
+        { "name": "Ludmila", "number": 14, "position": "FW" },
+        { "name": "Gabi Portilho", "number": 18, "position": "FW" }
+      ]
+    },
+    "away": {
+      "team": "Japan",
+      "formation": "5-3-2",
+      "coach": "Futoshi Ikeda",
+      "startingXI": [
+        { "name": "Ayaka Yamashita", "number": 1, "position": "GK" },
+        { "name": "Moeka Minami", "number": 3, "position": "DF" },
+        { "name": "Saki Kumagai", "number": 4, "position": "DF" },
+        { "name": "Hana Takahashi", "number": 5, "position": "DF" },
+        { "name": "Toko Koga", "number": 6, "position": "DF" },
+        { "name": "Hinata Miyazawa", "number": 7, "position": "MF" },
+        { "name": "Fuka Nagano", "number": 10, "position": "MF" },
+        { "name": "Mina Tanaka", "number": 11, "position": "FW" },
+        { "name": "Yui Hasegawa", "number": 14, "position": "MF" },
+        { "name": "Maika Hamano", "number": 17, "position": "FW" },
+        { "name": "Miyabi Moriya", "number": 20, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Chika Hirao", "number": 18, "position": "GK" },
+        { "name": "Kiko Seike", "number": 8, "position": "MF" },
+        { "name": "Riko Ueki", "number": 9, "position": "FW" },
+        { "name": "Momoko Tanikawa", "number": 12, "position": "MF" },
+        { "name": "Honoka Hayashi", "number": 16, "position": "MF" },
+        { "name": "Remina Chiba", "number": 19, "position": "FW" },
+        { "name": "Rion Ishikawa", "number": 21, "position": "DF" }
+      ]
+    }
+  }
+}

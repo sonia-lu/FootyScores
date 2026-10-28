@@ -1,0 +1,103 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Group B"
+  },
+  "venue": {
+    "name": "Marseille Stadium",
+    "city": "Marseille"
+  },
+  "kickoff": "2024-07-31T19:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Australia",
+    "away": "United States"
+  },
+  "score": {
+    "home": 1,
+    "away": 2,
+    "halfTime": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "United States",
+      "player": "Trinity Rodman",
+      "minute": 43,
+      "assist": "Sophia Smith",
+      "type": "open_play"
+    },
+    {
+      "team": "United States",
+      "player": "Korbin Albert",
+      "minute": 77,
+      "type": "open_play"
+    },
+    {
+      "team": "Australia",
+      "player": "Alanna Kennedy",
+      "minute": 91,
+      "assist": "Michelle Heyman",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Australia",
+      "formation": "4-2-3-1",
+      "coach": "Tony Gustavsson",
+      "startingXI": [
+        { "name": "Mackenzie Arnold", "number": 1, "position": "GK" },
+        { "name": "Kaitlyn Torpey", "number": 3, "position": "MF" },
+        { "name": "Katrina Gorry", "number": 6, "position": "MF" },
+        { "name": "Steph Catley", "number": 7, "position": "DF" },
+        { "name": "Kyra Cooney-Cross", "number": 8, "position": "MF" },
+        { "name": "Caitlin Foord", "number": 9, "position": "FW" },
+        { "name": "Mary Fowler", "number": 11, "position": "FW" },
+        { "name": "Ellie Carpenter", "number": 12, "position": "DF" },
+        { "name": "Alanna Kennedy", "number": 14, "position": "DF" },
+        { "name": "Clare Hunt", "number": 15, "position": "DF" },
+        { "name": "Hayley Raso", "number": 16, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Teagan Micah", "number": 18, "position": "GK" },
+        { "name": "Michelle Heyman", "number": 2, "position": "FW" },
+        { "name": "Clare Polkinghorne", "number": 4, "position": "DF" },
+        { "name": "Cortnee Vine", "number": 5, "position": "FW" },
+        { "name": "Emily van Egmond", "number": 10, "position": "MF" },
+        { "name": "Tameka Yallop", "number": 13, "position": "MF" },
+        { "name": "Clare Wheeler", "number": 17, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "United States",
+      "formation": "4-1-2-3",
+      "coach": "Emma Hayes",
+      "startingXI": [
+        { "name": "Alyssa Naeher", "number": 1, "position": "GK" },
+        { "name": "Emily Fox", "number": 2, "position": "DF" },
+        { "name": "Naomi Girma", "number": 4, "position": "DF" },
+        { "name": "Trinity Rodman", "number": 5, "position": "FW" },
+        { "name": "Crystal Dunn", "number": 7, "position": "FW" },
+        { "name": "Mallory Swanson", "number": 9, "position": "FW" },
+        { "name": "Lindsey Horan", "number": 10, "position": "MF" },
+        { "name": "Sophia Smith", "number": 11, "position": "FW" },
+        { "name": "Emily Sonnett", "number": 14, "position": "MF" },
+        { "name": "Rose Lavelle", "number": 16, "position": "MF" },
+        { "name": "Samantha Coffey", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Casey Murphy", "number": 18, "position": "GK" },
+        { "name": "Korbin Albert", "number": 3, "position": "MF" },
+        { "name": "Casey Krueger", "number": 6, "position": "DF" },
+        { "name": "Lynn Williams", "number": 8, "position": "FW" },
+        { "name": "Jenna Nighswonger", "number": 13, "position": "DF" },
+        { "name": "Croix Bethune", "number": 20, "position": "FW" },
+        { "name": "Emily Sams", "number": 21, "position": "DF" }
+      ]
+    }
+  }
+}

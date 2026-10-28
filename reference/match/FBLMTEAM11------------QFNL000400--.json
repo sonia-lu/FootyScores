@@ -1,0 +1,103 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Quarter-final"
+  },
+  "venue": {
+    "name": "Lyon Stadium",
+    "city": "Lyon"
+  },
+  "kickoff": "2024-08-02T17:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Japan",
+    "away": "Spain"
+  },
+  "score": {
+    "home": 0,
+    "away": 3,
+    "halfTime": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "Spain",
+      "player": "Fermin Lopez",
+      "minute": 11,
+      "assist": "Pablo Barrios",
+      "type": "open_play"
+    },
+    {
+      "team": "Spain",
+      "player": "Fermin Lopez",
+      "minute": 73,
+      "assist": "Sergio Gomez",
+      "type": "open_play"
+    },
+    {
+      "team": "Spain",
+      "player": "Abel Ruiz",
+      "minute": 86,
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Japan",
+      "formation": "4-1-2-3",
+      "coach": "Go Oiwa",
+      "startingXI": [
+        { "name": "Leobrian Kokubo", "number": 1, "position": "GK" },
+        { "name": "Hiroki Sekine", "number": 4, "position": "DF" },
+        { "name": "Seiji Kimura", "number": 5, "position": "DF" },
+        { "name": "Rihito Yamamoto", "number": 7, "position": "MF" },
+        { "name": "Joel Chima Fujita", "number": 8, "position": "MF" },
+        { "name": "Koki Saito", "number": 10, "position": "FW" },
+        { "name": "Mao Hosoya", "number": 11, "position": "FW" },
+        { "name": "Shunsuke Mito", "number": 14, "position": "MF" },
+        { "name": "Kota Takai", "number": 15, "position": "DF" },
+        { "name": "Ayumu Ohata", "number": 16, "position": "DF" },
+        { "name": "Fuki Yamada", "number": 20, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Taishi Nozawa", "number": 12, "position": "GK" },
+        { "name": "Kaito Suzuki", "number": 2, "position": "DF" },
+        { "name": "Shota Fujio", "number": 9, "position": "FW" },
+        { "name": "Ryotaro Araki", "number": 13, "position": "MF" },
+        { "name": "Kein Sato", "number": 18, "position": "FW" },
+        { "name": "Asahi Uenaka", "number": 19, "position": "FW" },
+        { "name": "Takashi Uchino", "number": 21, "position": "DF" }
+      ]
+    },
+    "away": {
+      "team": "Spain",
+      "formation": "4-2-3-1",
+      "coach": "Santi Denia",
+      "startingXI": [
+        { "name": "Arnau Tenas", "number": 1, "position": "GK" },
+        { "name": "Marc Pubill", "number": 2, "position": "DF" },
+        { "name": "Juan Miranda", "number": 3, "position": "DF" },
+        { "name": "Eric Garcia", "number": 4, "position": "DF" },
+        { "name": "Pau Cubarsi", "number": 5, "position": "DF" },
+        { "name": "Pablo Barrios", "number": 6, "position": "MF" },
+        { "name": "Abel Ruiz", "number": 9, "position": "FW" },
+        { "name": "Alex Baena", "number": 10, "position": "MF" },
+        { "name": "Fermin Lopez", "number": 11, "position": "MF" },
+        { "name": "Aimar Oroz", "number": 14, "position": "MF" },
+        { "name": "Sergio Gomez", "number": 17, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Joan Garcia", "number": 13, "position": "GK" },
+        { "name": "Diego Lopez", "number": 7, "position": "FW" },
+        { "name": "Benat Turrientes", "number": 8, "position": "MF" },
+        { "name": "Jon Pacheco", "number": 12, "position": "DF" },
+        { "name": "Miguel Gutierrez", "number": 15, "position": "DF" },
+        { "name": "Adrian Bernabe", "number": 16, "position": "MF" },
+        { "name": "Samu Omorodion", "number": 18, "position": "FW" }
+      ]
+    }
+  }
+}

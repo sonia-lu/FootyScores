@@ -1,0 +1,103 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group B"
+  },
+  "venue": {
+    "name": "Geoffroy-Guichard Stadium",
+    "city": "Saint-Etienne"
+  },
+  "kickoff": "2024-07-27T17:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Ukraine",
+    "away": "Morocco"
+  },
+  "score": {
+    "home": 2,
+    "away": 1,
+    "halfTime": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "Ukraine",
+      "player": "Dmytro Kryskiv",
+      "minute": 21,
+      "assist": "Maksym Braharu",
+      "type": "open_play"
+    },
+    {
+      "team": "Morocco",
+      "player": "Soufiane Rahimi",
+      "minute": 64,
+      "type": "penalty"
+    },
+    {
+      "team": "Ukraine",
+      "player": "Ihor Krasnopir",
+      "minute": 98,
+      "assist": "Oleh Fedor",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Ukraine",
+      "formation": "4-5-1",
+      "coach": "Ruslan Rotan",
+      "startingXI": [
+        { "name": "Kiril Fesiun", "number": 12, "position": "GK" },
+        { "name": "Illia Krupskyi", "number": 2, "position": "DF" },
+        { "name": "Oleksandr Martyniuk", "number": 3, "position": "DF" },
+        { "name": "Valentyn Rubchynskyi", "number": 5, "position": "MF" },
+        { "name": "Mykola Mykhailenko", "number": 8, "position": "MF" },
+        { "name": "Maksym Braharu", "number": 10, "position": "MF" },
+        { "name": "Maksym Khlan", "number": 11, "position": "MF" },
+        { "name": "Volodymyr Saliuk", "number": 13, "position": "DF" },
+        { "name": "Danylo Sikan", "number": 14, "position": "FW" },
+        { "name": "Arsenii Batahov", "number": 16, "position": "DF" },
+        { "name": "Dmytro Kryskiv", "number": 18, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Georgiy Yermakov", "number": 1, "position": "GK" },
+        { "name": "Maksym Talovierov", "number": 4, "position": "DF" },
+        { "name": "Oleksii Sych", "number": 6, "position": "DF" },
+        { "name": "Oleh Ocheretko", "number": 7, "position": "MF" },
+        { "name": "Ihor Krasnopir", "number": 9, "position": "FW" },
+        { "name": "Vladyslav Veleten", "number": 15, "position": "MF" },
+        { "name": "Oleh Fedor", "number": 17, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "Morocco",
+      "formation": "4-1-2-3",
+      "coach": "Tarik Sektioui",
+      "startingXI": [
+        { "name": "Munir El Kajoui", "number": 1, "position": "GK" },
+        { "name": "Achraf Hakimi", "number": 2, "position": "DF" },
+        { "name": "Mehdi Boukamir", "number": 4, "position": "DF" },
+        { "name": "Eliesse Ben Seghir", "number": 7, "position": "FW" },
+        { "name": "Bilal El Khannouss", "number": 8, "position": "MF" },
+        { "name": "Soufiane Rahimi", "number": 9, "position": "FW" },
+        { "name": "Zakaria El Ouahdi", "number": 11, "position": "DF" },
+        { "name": "Oussama Targhalline", "number": 14, "position": "MF" },
+        { "name": "Abde Ezzalzouli", "number": 16, "position": "FW" },
+        { "name": "Oussama El Azzouzi", "number": 17, "position": "MF" },
+        { "name": "Amir Richardson", "number": 18, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Rachid Ghanimi", "number": 12, "position": "GK" },
+        { "name": "Akram Nakach", "number": 3, "position": "DF" },
+        { "name": "Adil Tahif", "number": 5, "position": "DF" },
+        { "name": "Benjamin Bouchouari", "number": 6, "position": "MF" },
+        { "name": "Ilias Akhomach", "number": 10, "position": "FW" },
+        { "name": "Yassine Kechta", "number": 13, "position": "MF" },
+        { "name": "Mehdi Maouhoub", "number": 15, "position": "FW" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group C"
+  },
+  "venue": {
+    "name": "Parc des Princes",
+    "city": "Paris"
+  },
+  "kickoff": "2024-07-30T15:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Dominican Republic",
+    "away": "Uzbekistan"
+  },
+  "score": {
+    "home": 1,
+    "away": 1,
+    "halfTime": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  "scorers": [
+    {
+      "team": "Dominican Republic",
+      "player": "Rafael Nunez",
+      "minute": 51,
+      "type": "penalty"
+    },
+    {
+      "team": "Uzbekistan",
+      "player": "Alisher Odilov",
+      "minute": 58,
+      "assist": "Eldor Shomurodov",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Dominican Republic",
+      "formation": "3-4-3",
+      "coach": "Ibai Gomez",
+      "startingXI": [
+        { "name": "Xavier Valdez", "number": 1, "position": "GK" },
+        { "name": "Edgar Pujol", "number": 4, "position": "DF" },
+        { "name": "Luiyi de Lucas", "number": 5, "position": "DF" },
+        { "name": "Heinz Morschel", "number": 6, "position": "MF" },
+        { "name": "Oscar Urena", "number": 7, "position": "FW" },
+        { "name": "Angel Montes de Oca", "number": 8, "position": "MF" },
+        { "name": "Rafael Nunez", "number": 9, "position": "FW" },
+        { "name": "Peter Gonzalez", "number": 11, "position": "FW" },
+        { "name": "Joao Urbaez", "number": 12, "position": "DF" },
+        { "name": "Jose de Leon", "number": 17, "position": "FW" },
+        { "name": "Nowend Lorenzo", "number": 18, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Enrique Boesl", "number": 13, "position": "GK" },
+        { "name": "Francisco Reyes", "number": 2, "position": "DF" },
+        { "name": "Josue Baez", "number": 3, "position": "MF" },
+        { "name": "Omar de la Cruz", "number": 14, "position": "MF" },
+        { "name": "Nelson Lemaire", "number": 16, "position": "DF" },
+        { "name": "Thomas Jungbauer", "number": 20, "position": "DF" },
+        { "name": "Edison Azcona", "number": 10, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "Uzbekistan",
+      "formation": "4-2-3-1",
+      "coach": "Timur Kapadze",
+      "startingXI": [
+        { "name": "Vladimir Nazarov", "number": 12, "position": "GK" },
+        { "name": "Saidazamat Mirsaidov", "number": 2, "position": "DF" },
+        { "name": "Abdukodir Khusanov", "number": 3, "position": "DF" },
+        { "name": "Muhammadkodir Hamraliev", "number": 5, "position": "DF" },
+        { "name": "Ruslanbek Jiyanov", "number": 8, "position": "FW" },
+        { "name": "Khusain Norchaev", "number": 9, "position": "FW" },
+        { "name": "Zafarmurod Abdirakhmatov", "number": 13, "position": "DF" },
+        { "name": "Umarali Rakhmonaliev", "number": 15, "position": "MF" },
+        { "name": "Abdurauf Buriev", "number": 18, "position": "MF" },
+        { "name": "Ibrokhim Ibragimov", "number": 19, "position": "MF" },
+        { "name": "Alisher Odilov", "number": 20, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Abduvohid Nematov", "number": 1, "position": "GK" },
+        { "name": "Abbosbek Fayzullaev", "number": 7, "position": "MF" },
+        { "name": "Jasurbek Jaloliddinov", "number": 10, "position": "MF" },
+        { "name": "Eldor Shomurodov", "number": 14, "position": "FW" },
+        { "name": "Asadbek Rakhimjonov", "number": 16, "position": "DF" },
+        { "name": "Diyor Kholmatov", "number": 17, "position": "MF" },
+        { "name": "Bekhruzbek Askarov", "number": 21, "position": "MF" }
+      ]
+    }
+  }
+}

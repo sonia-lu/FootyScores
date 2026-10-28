@@ -1,0 +1,96 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Women's Football",
+    "season": "2024",
+    "round": "Group A"
+  },
+  "venue": {
+    "name": "Lyon Stadium",
+    "city": "Lyon"
+  },
+  "kickoff": "2024-07-28T17:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "New Zealand",
+    "away": "Colombia"
+  },
+  "score": {
+    "home": 0,
+    "away": 2,
+    "halfTime": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "Colombia",
+      "player": "Marcela Restrepo",
+      "minute": 27,
+      "type": "open_play"
+    },
+    {
+      "team": "Colombia",
+      "player": "Leicy Santos",
+      "minute": 72,
+      "assist": "Manuela Vanegas",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "New Zealand",
+      "formation": "4-4-2",
+      "coach": "Michael Mayne",
+      "startingXI": [
+        { "name": "Anna Leat", "number": 1, "position": "GK" },
+        { "name": "Kate Maria Taylor", "number": 2, "position": "MF" },
+        { "name": "Mackenzie Barry", "number": 3, "position": "DF" },
+        { "name": "C.J. Bott", "number": 4, "position": "DF" },
+        { "name": "Malia Steinmetz", "number": 6, "position": "MF" },
+        { "name": "Indiah-Paige Riley", "number": 10, "position": "FW" },
+        { "name": "Katie Kitching", "number": 11, "position": "MF" },
+        { "name": "Rebekah Stott", "number": 13, "position": "DF" },
+        { "name": "Katie Bowen", "number": 14, "position": "DF" },
+        { "name": "Jacqui Hand", "number": 16, "position": "FW" },
+        { "name": "Milly Clegg", "number": 17, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Victoria Esson", "number": 12, "position": "GK" },
+        { "name": "Meikayla Moore", "number": 5, "position": "DF" },
+        { "name": "Michaela Foster", "number": 7, "position": "DF" },
+        { "name": "Gabi Rennie", "number": 9, "position": "FW" },
+        { "name": "Ally Green", "number": 15, "position": "FW" },
+        { "name": "Grace Jale", "number": 18, "position": "FW" },
+        { "name": "Annalie Longo", "number": 20, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "Colombia",
+      "formation": "4-2-3-1",
+      "coach": "Angelo Marsiglia",
+      "startingXI": [
+        { "name": "Katherine Tapia", "number": 12, "position": "GK" },
+        { "name": "Manuela Vanegas", "number": 2, "position": "DF" },
+        { "name": "Daniela Arias", "number": 3, "position": "DF" },
+        { "name": "Manuela Pavi", "number": 7, "position": "FW" },
+        { "name": "Marcela Restrepo", "number": 8, "position": "MF" },
+        { "name": "Leicy Santos", "number": 10, "position": "MF" },
+        { "name": "Catalina Usme", "number": 11, "position": "FW" },
+        { "name": "Ilana Izquierdo", "number": 13, "position": "MF" },
+        { "name": "Jorelyn Carabali", "number": 16, "position": "DF" },
+        { "name": "Carolina Arias", "number": 17, "position": "DF" },
+        { "name": "Linda Caicedo", "number": 18, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Sandra Sepulveda", "number": 22, "position": "GK" },
+        { "name": "Daniela Caracas", "number": 4, "position": "DF" },
+        { "name": "Yirleidys Quejada Minota", "number": 5, "position": "DF" },
+        { "name": "Daniela Montoya", "number": 6, "position": "MF" },
+        { "name": "Angela Baron", "number": 14, "position": "DF" },
+        { "name": "Liana Salazar", "number": 15, "position": "MF" },
+        { "name": "Mayra Ramirez", "number": 9, "position": "FW" }
+      ]
+    }
+  }
+}

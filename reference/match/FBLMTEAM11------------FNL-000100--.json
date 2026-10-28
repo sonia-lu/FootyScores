@@ -1,0 +1,135 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Gold Medal Match"
+  },
+  "venue": {
+    "name": "Parc des Princes",
+    "city": "Paris"
+  },
+  "kickoff": "2024-08-09T18:00:00+02:00",
+  "status": "AET",
+  "teams": {
+    "home": "France",
+    "away": "Spain"
+  },
+  "score": {
+    "home": 3,
+    "away": 5,
+    "halfTime": {
+      "home": 1,
+      "away": 3
+    }
+  },
+  "scorers": [
+    {
+      "team": "France",
+      "player": "Enzo Millot",
+      "minute": 11,
+      "type": "open_play"
+    },
+    {
+      "team": "Spain",
+      "player": "Fermin Lopez",
+      "minute": 18,
+      "assist": "Alex Baena",
+      "type": "open_play"
+    },
+    {
+      "team": "Spain",
+      "player": "Fermin Lopez",
+      "minute": 25,
+      "type": "open_play"
+    },
+    {
+      "team": "Spain",
+      "player": "Alex Baena",
+      "minute": 28,
+      "type": "free_kick"
+    },
+    {
+      "team": "France",
+      "player": "Maghnes Akliouche",
+      "minute": 79,
+      "assist": "Michael Olise",
+      "type": "open_play"
+    },
+    {
+      "team": "France",
+      "player": "Jean-Philippe Mateta",
+      "minute": 93,
+      "type": "penalty"
+    },
+    {
+      "team": "Spain",
+      "player": "Sergio Camello",
+      "minute": 100,
+      "assist": "Adrian Bernabe",
+      "type": "open_play"
+    },
+    {
+      "team": "Spain",
+      "player": "Sergio Camello",
+      "minute": 121,
+      "assist": "Arnau Tenas",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "France",
+      "formation": "4-1-2-1-2",
+      "coach": "Thierry Henry",
+      "startingXI": [
+        { "name": "Guillaume Restes", "number": 16, "position": "GK" },
+        { "name": "Castello Lukeba", "number": 2, "position": "DF" },
+        { "name": "Adrien Truffert", "number": 3, "position": "DF" },
+        { "name": "Loic Bade", "number": 4, "position": "DF" },
+        { "name": "Kiliann Sildillia", "number": 5, "position": "DF" },
+        { "name": "Manu Kone", "number": 6, "position": "MF" },
+        { "name": "Michael Olise", "number": 7, "position": "FW" },
+        { "name": "Alexandre Lacazette", "number": 10, "position": "FW" },
+        { "name": "Enzo Millot", "number": 12, "position": "MF" },
+        { "name": "Joris Chotard", "number": 13, "position": "MF" },
+        { "name": "Jean-Philippe Mateta", "number": 14, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Obed Nkambadio", "number": 1, "position": "GK" },
+        { "name": "Maghnes Akliouche", "number": 8, "position": "MF" },
+        { "name": "Arnaud Kalimuendo", "number": 9, "position": "FW" },
+        { "name": "Desire Doue", "number": 11, "position": "MF" },
+        { "name": "Bradley Locko", "number": 15, "position": "DF" },
+        { "name": "Soungoutou Magassa", "number": 17, "position": "DF" },
+        { "name": "Rayan Cherki", "number": 18, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "Spain",
+      "formation": "4-2-3-1",
+      "coach": "Santi Denia",
+      "startingXI": [
+        { "name": "Arnau Tenas", "number": 1, "position": "GK" },
+        { "name": "Marc Pubill", "number": 2, "position": "DF" },
+        { "name": "Juan Miranda", "number": 3, "position": "DF" },
+        { "name": "Eric Garcia", "number": 4, "position": "DF" },
+        { "name": "Pau Cubarsi", "number": 5, "position": "DF" },
+        { "name": "Pablo Barrios", "number": 6, "position": "MF" },
+        { "name": "Abel Ruiz", "number": 9, "position": "FW" },
+        { "name": "Alex Baena", "number": 10, "position": "MF" },
+        { "name": "Fermin Lopez", "number": 11, "position": "MF" },
+        { "name": "Aimar Oroz", "number": 14, "position": "MF" },
+        { "name": "Sergio Gomez", "number": 17, "position": "DF" }
+      ],
+      "bench": [
+        { "name": "Joan Garcia", "number": 13, "position": "GK" },
+        { "name": "Benat Turrientes", "number": 8, "position": "MF" },
+        { "name": "Jon Pacheco", "number": 12, "position": "DF" },
+        { "name": "Miguel Gutierrez", "number": 15, "position": "DF" },
+        { "name": "Adrian Bernabe", "number": 16, "position": "MF" },
+        { "name": "Juanlu Sanchez", "number": 20, "position": "DF" },
+        { "name": "Sergio Camello", "number": 21, "position": "FW" }
+      ]
+    }
+  }
+}

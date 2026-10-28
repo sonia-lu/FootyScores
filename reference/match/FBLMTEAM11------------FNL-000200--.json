@@ -1,0 +1,123 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Bronze Medal Match"
+  },
+  "venue": {
+    "name": "La Beaujoire Stadium",
+    "city": "Nantes"
+  },
+  "kickoff": "2024-08-08T17:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Egypt",
+    "away": "Morocco"
+  },
+  "score": {
+    "home": 0,
+    "away": 6,
+    "halfTime": {
+      "home": 0,
+      "away": 2
+    }
+  },
+  "scorers": [
+    {
+      "team": "Morocco",
+      "player": "Abde Ezzalzouli",
+      "minute": 23,
+      "type": "open_play"
+    },
+    {
+      "team": "Morocco",
+      "player": "Soufiane Rahimi",
+      "minute": 26,
+      "assist": "Abde Ezzalzouli",
+      "type": "open_play"
+    },
+    {
+      "team": "Morocco",
+      "player": "Bilal El Khannouss",
+      "minute": 51,
+      "assist": "Abde Ezzalzouli",
+      "type": "open_play"
+    },
+    {
+      "team": "Morocco",
+      "player": "Soufiane Rahimi",
+      "minute": 64,
+      "assist": "Ilias Akhomach",
+      "type": "open_play"
+    },
+    {
+      "team": "Morocco",
+      "player": "Akram Nakach",
+      "minute": 73,
+      "assist": "Soufiane Rahimi",
+      "type": "open_play"
+    },
+    {
+      "team": "Morocco",
+      "player": "Achraf Hakimi",
+      "minute": 87,
+      "type": "free_kick"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Egypt",
+      "formation": "4-1-2-3",
+      "coach": "Rogerio Micale",
+      "startingXI": [
+        { "name": "Hamza Alaa", "number": 1, "position": "GK" },
+        { "name": "Hossam Abdelmaguid", "number": 5, "position": "DF" },
+        { "name": "Mohamed Shehata", "number": 6, "position": "MF" },
+        { "name": "Mahmoud Saber", "number": 7, "position": "MF" },
+        { "name": "Osama Faisal", "number": 9, "position": "FW" },
+        { "name": "Ibrahim Adel", "number": 10, "position": "MF" },
+        { "name": "Ahmed Koka", "number": 12, "position": "MF" },
+        { "name": "Karim El Debes", "number": 13, "position": "DF" },
+        { "name": "Zizo", "number": 14, "position": "MF" },
+        { "name": "Mohamed Tarek", "number": 15, "position": "DF" },
+        { "name": "Mohamed Elneny", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Ali El Gabry", "number": 16, "position": "GK" },
+        { "name": "Ahmed Atef", "number": 3, "position": "MF" },
+        { "name": "Ziad Kamal", "number": 8, "position": "MF" },
+        { "name": "Mostafa Saad", "number": 11, "position": "MF" },
+        { "name": "Bilal Mazhar", "number": 18, "position": "FW" },
+        { "name": "Mohamed Hamdy", "number": 19, "position": "MF" },
+        { "name": "Omar Fayed", "number": 2, "position": "MF" }
+      ]
+    },
+    "away": {
+      "team": "Morocco",
+      "formation": "4-1-2-3",
+      "coach": "Tarik Sektioui",
+      "startingXI": [
+        { "name": "Munir El Kajoui", "number": 1, "position": "GK" },
+        { "name": "Achraf Hakimi", "number": 2, "position": "DF" },
+        { "name": "Akram Nakach", "number": 3, "position": "DF" },
+        { "name": "Mehdi Boukamir", "number": 4, "position": "DF" },
+        { "name": "Bilal El Khannouss", "number": 8, "position": "MF" },
+        { "name": "Soufiane Rahimi", "number": 9, "position": "FW" },
+        { "name": "Ilias Akhomach", "number": 10, "position": "FW" },
+        { "name": "Zakaria El Ouahdi", "number": 11, "position": "DF" },
+        { "name": "Oussama Targhalline", "number": 14, "position": "MF" },
+        { "name": "Abde Ezzalzouli", "number": 16, "position": "FW" },
+        { "name": "Amir Richardson", "number": 18, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Rachid Ghanimi", "number": 12, "position": "GK" },
+        { "name": "Adil Tahif", "number": 5, "position": "DF" },
+        { "name": "Benjamin Bouchouari", "number": 6, "position": "MF" },
+        { "name": "Eliesse Ben Seghir", "number": 7, "position": "FW" },
+        { "name": "Yassine Kechta", "number": 13, "position": "MF" },
+        { "name": "Mehdi Maouhoub", "number": 15, "position": "FW" },
+        { "name": "Haytam Manaout", "number": 19, "position": "DF" }
+      ]
+    }
+  }
+}

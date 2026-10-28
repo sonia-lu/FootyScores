@@ -1,0 +1,103 @@
+{
+  "competition": {
+    "name": "Paris 2024 Olympic Games - Men's Football",
+    "season": "2024",
+    "round": "Group C"
+  },
+  "venue": {
+    "name": "Bordeaux Stadium",
+    "city": "Bordeaux"
+  },
+  "kickoff": "2024-07-30T15:00:00+02:00",
+  "status": "FT",
+  "teams": {
+    "home": "Spain",
+    "away": "Egypt"
+  },
+  "score": {
+    "home": 1,
+    "away": 2,
+    "halfTime": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  "scorers": [
+    {
+      "team": "Egypt",
+      "player": "Ibrahim Adel",
+      "minute": 40,
+      "assist": "Zizo",
+      "type": "open_play"
+    },
+    {
+      "team": "Egypt",
+      "player": "Ibrahim Adel",
+      "minute": 62,
+      "type": "open_play"
+    },
+    {
+      "team": "Spain",
+      "player": "Samu Omorodion",
+      "minute": 90,
+      "assist": "Sergio Camello",
+      "type": "open_play"
+    }
+  ],
+  "lineups": {
+    "home": {
+      "team": "Spain",
+      "formation": "4-2-3-1",
+      "coach": "Santi Denia",
+      "startingXI": [
+        { "name": "Alejandro Iturbe", "number": 22, "position": "GK" },
+        { "name": "Marc Pubill", "number": 2, "position": "DF" },
+        { "name": "Diego Lopez", "number": 7, "position": "FW" },
+        { "name": "Benat Turrientes", "number": 8, "position": "MF" },
+        { "name": "Jon Pacheco", "number": 12, "position": "DF" },
+        { "name": "Aimar Oroz", "number": 14, "position": "MF" },
+        { "name": "Miguel Gutierrez", "number": 15, "position": "DF" },
+        { "name": "Adrian Bernabe", "number": 16, "position": "MF" },
+        { "name": "Samu Omorodion", "number": 18, "position": "FW" },
+        { "name": "Cristhian Mosquera", "number": 19, "position": "DF" },
+        { "name": "Sergio Camello", "number": 21, "position": "FW" }
+      ],
+      "bench": [
+        { "name": "Arnau Tenas", "number": 1, "position": "GK" },
+        { "name": "Juan Miranda", "number": 3, "position": "DF" },
+        { "name": "Eric Garcia", "number": 4, "position": "DF" },
+        { "name": "Pablo Barrios", "number": 6, "position": "MF" },
+        { "name": "Fermin Lopez", "number": 11, "position": "MF" },
+        { "name": "Sergio Gomez", "number": 17, "position": "DF" },
+        { "name": "Juanlu Sanchez", "number": 20, "position": "DF" }
+      ]
+    },
+    "away": {
+      "team": "Egypt",
+      "formation": "4-1-2-3",
+      "coach": "Rogerio Micale",
+      "startingXI": [
+        { "name": "Hamza Alaa", "number": 1, "position": "GK" },
+        { "name": "Omar Fayed", "number": 2, "position": "MF" },
+        { "name": "Ahmed Eid", "number": 4, "position": "DF" },
+        { "name": "Hossam Abdelmaguid", "number": 5, "position": "DF" },
+        { "name": "Mohamed Shehata", "number": 6, "position": "MF" },
+        { "name": "Osama Faisal", "number": 9, "position": "FW" },
+        { "name": "Ibrahim Adel", "number": 10, "position": "MF" },
+        { "name": "Ahmed Koka", "number": 12, "position": "MF" },
+        { "name": "Karim El Debes", "number": 13, "position": "DF" },
+        { "name": "Zizo", "number": 14, "position": "MF" },
+        { "name": "Mohamed Elneny", "number": 17, "position": "MF" }
+      ],
+      "bench": [
+        { "name": "Ali El Gabry", "number": 16, "position": "GK" },
+        { "name": "Ahmed Atef", "number": 3, "position": "MF" },
+        { "name": "Mahmoud Saber", "number": 7, "position": "MF" },
+        { "name": "Ziad Kamal", "number": 8, "position": "MF" },
+        { "name": "Mostafa Saad", "number": 11, "position": "MF" },
+        { "name": "Mohamed Tarek", "number": 15, "position": "DF" },
+        { "name": "Bilal Mazhar", "number": 18, "position": "FW" }
+      ]
+    }
+  }
+}
