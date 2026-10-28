@@ -10,3 +10,7 @@ data/raw.tmp/
 
 # macOS
 .DS_Store
+
+# VSCode folders
+.github
+.vscode
