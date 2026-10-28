@@ -12,5 +12,5 @@ data/raw.tmp/
 .DS_Store
 
 # VSCode folders
-.github
-.vscode
+.github/
+.vscode/
