@@ -5,8 +5,9 @@ import json
 import sys
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from pathlib import Path
 
-from config import FAVICON_PNG, HTML_CONTENT_TYPE, JSON_CONTENT_TYPE, REFERENCE_DIR
+from config import FAVICON_PNG, HTML_CONTENT_TYPE, JSON_CONTENT_TYPE
 
 
 def endpoint_links(endpoints: list) -> bytes:
@@ -41,7 +42,7 @@ def endpoint_links(endpoints: list) -> bytes:
     return page.encode()
 
 
-def make_server(endpoints: list, host: str, port: int) -> ThreadingHTTPServer:
+def make_server(endpoints: list, reference_dir: Path, host: str, port: int) -> ThreadingHTTPServer:
     """Create the API server (it starts answering once serve_forever() is called).
 
     GET /match            list of all endpoints (JSON, or HTML links in a browser)
@@ -49,10 +50,10 @@ def make_server(endpoints: list, host: str, port: int) -> ThreadingHTTPServer:
     GET /favicon.ico      small football icon for the browser tab
     anything else         404 with {"error": "..."}
     """
-    # Which file answers which path, e.g. "/match/<id>" -> reference/match/<id>.json
+    # Which file answers which path, e.g. "/match/<id>" -> <reference_dir>/match/<id>.json
     response_files = {}
     for item in endpoints:
-        response_files[item["endpoint"]] = REFERENCE_DIR / item["response"]
+        response_files[item["endpoint"]] = reference_dir / item["response"]
 
     class Handler(BaseHTTPRequestHandler):
         """Called by the web server once for every incoming request."""
@@ -86,10 +87,10 @@ def make_server(endpoints: list, host: str, port: int) -> ThreadingHTTPServer:
     return ThreadingHTTPServer((host, port), Handler)
 
 
-def serve(endpoints: list, host: str, port: int) -> None:
+def serve(endpoints: list, reference_dir: Path, host: str, port: int) -> None:
     """Run the API until Ctrl+C is pressed."""
     try:
-        server = make_server(endpoints, host, port)
+        server = make_server(endpoints, reference_dir, host, port)
     except OSError as error:
         sys.exit(f"Cannot start the API on {host}:{port}: {error.strerror or error}")
 

@@ -10,6 +10,9 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 START_LIST_FILE = RAW_DIR / "SCH_StartList.json"
 MATCH_RAW_DIR = RAW_DIR / "RES_ByRSC_H2H"
+# The olympics.com competition schedule (all sports). Not used to build the
+# reference, only by the tests, to check the match list against it.
+MAIN_GRID_FILE = RAW_DIR / "SCH_MainGridUnits.json"
 # Hand-checked fixes for gaps in the downloaded data; kept outside data/raw/ so --fetch never overwrites them.
 CORRECTIONS_FILE = ROOT / "data" / "corrections.json"
 REFERENCE_DIR = ROOT / "reference"
@@ -18,6 +21,7 @@ REFERENCE_DIR = ROOT / "reference"
 
 BASE_URL = "https://stacy.olympics.com/OG2024/data/"
 START_LIST_URL = BASE_URL + "SCH_StartList~comp=OG2024~disc=FBL~lang=ENG.json"
+MAIN_GRID_URL = BASE_URL + "SCH_MainGridUnits~comp=OG2024~lang=ENG.json"
 MATCH_URL = BASE_URL + "RES_ByRSC_H2H~comp=OG2024~disc=FBL~rscResult={code}~lang=ENG.json"
 REFERER = "https://stacy.olympics.com/en/paris-2024/schedule/football"
 USER_AGENT = (

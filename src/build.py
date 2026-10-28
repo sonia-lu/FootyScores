@@ -94,11 +94,12 @@ def to_json(data, level: int = 0, key: Optional[str] = None) -> str:
     return json.dumps(data, ensure_ascii=False)
 
 
-def update_reference(files: dict) -> None:
-    """Make reference/ contain exactly these files: {<path>: <text>}.
+def update_reference(files: dict, out_dir: Path) -> None:
+    """Make out_dir contain exactly these files: {<path>: <text>}.
 
-    Files whose text is already correct are left untouched, and files that are
-    no longer needed (e.g. a removed match) are deleted.
+    Files whose text is already correct are left untouched, and match files
+    that are no longer needed (e.g. a removed match) are deleted. Nothing else
+    in out_dir is deleted, so it is safe to point --out at any folder.
     """
     for path, text in files.items():
         if path.exists() and path.read_text(encoding="utf-8") == text:
@@ -106,18 +107,20 @@ def update_reference(files: dict) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text, encoding="utf-8")
 
-    if REFERENCE_DIR.exists():
-        for path in REFERENCE_DIR.rglob("*"):
-            if path.is_file() and path not in files:
-                path.unlink()
+    for path in (out_dir / "match").glob("*.json"):
+        if path not in files:
+            path.unlink()
 
 
 def read_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def build() -> list:
-    """Write reference/endpoints.json and one reference/match/<id>.json per match.
+def build(out_dir: Path = REFERENCE_DIR, extended: bool = False) -> list:
+    """Write endpoints.json and one match/<id>.json per match into out_dir.
+
+    out_dir:  where to write; reference/ unless --out is given.
+    extended: add the "addedTime" field to stoppage-time goals (--extended).
 
     Returns the list of endpoints (the content of endpoints.json).
     """
@@ -144,7 +147,7 @@ def build() -> list:
             sys.exit(f"Missing stored result for {match_id}; run: python3 src/FootyScores.py --fetch")
 
         notes = []
-        response = convert(match, read_json(raw_file), corrections.get(match_id), notes)
+        response = convert(match, read_json(raw_file), corrections.get(match_id), notes, extended)
         responses[match_id] = response
         endpoints.append(
             {
@@ -161,8 +164,8 @@ def build() -> list:
     # Only write files once every match has converted without errors.
     files = {}
     for match_id, response in responses.items():
-        files[REFERENCE_DIR / "match" / f"{match_id}.json"] = to_json(response) + "\n"
-    files[REFERENCE_DIR / "endpoints.json"] = to_json(endpoints) + "\n"
-    update_reference(files)
+        files[out_dir / "match" / f"{match_id}.json"] = to_json(response) + "\n"
+    files[out_dir / "endpoints.json"] = to_json(endpoints) + "\n"
+    update_reference(files, out_dir)
 
     return endpoints

@@ -177,11 +177,13 @@ def count_goals(goals: list, team_name: str) -> int:
     return count
 
 
-def convert(match: dict, data: dict, correction: Optional[dict], notes: list) -> dict:
+def convert(match: dict, data: dict, correction: Optional[dict], notes: list, extended: bool = False) -> dict:
     """Turn one raw match result into a response with the structure of example.json.
 
     correction: hand-checked fixes from data/corrections.json, or None.
     notes:      known problems with this match's data are added to this list.
+    extended:   also give stoppage-time goals an "addedTime" field, which
+                example.json does not have (90' +3 -> minute 90, addedTime 3).
     """
     results = data["results"]
 
@@ -238,6 +240,12 @@ def convert(match: dict, data: dict, correction: Optional[dict], notes: list) ->
             f"{home_goals}-{away_goals} but the final score is {home_score}-{away_score}; "
             f"check the source data and {CORRECTIONS_FILE.name}"
         )
+
+    # By default keep exactly the fields of example.json, so 90' +3 is just minute 90.
+    if not extended:
+        for goal in goals:
+            if "addedTime" in goal:
+                del goal["addedTime"]
 
     tournament = TOURNAMENTS[match["code"][:10]]  # first 10 characters: men's or women's
     location = results["schedule"]["location"]["longDescription"]  # e.g. "Parc des Princes, Paris"

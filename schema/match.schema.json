@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sonia-lu/FootyScores/schema/match.schema.json",
+  "title": "GET /match/<id> response",
+  "description": "The structure of example.json. Every field is required, except scorers[].assist; no other fields are allowed.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["competition", "venue", "kickoff", "status", "teams", "score", "scorers", "lineups"],
+  "properties": {
+    "competition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "season", "round"],
+      "properties": {
+        "name": { "type": "string" },
+        "season": { "type": "string" },
+        "round": { "type": "string" }
+      }
+    },
+    "venue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "city"],
+      "properties": {
+        "name": { "type": "string" },
+        "city": { "type": "string" }
+      }
+    },
+    "kickoff": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+    },
+    "status": { "type": "string" },
+    "teams": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["home", "away"],
+      "properties": {
+        "home": { "type": "string" },
+        "away": { "type": "string" }
+      }
+    },
+    "score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["home", "away", "halfTime"],
+      "properties": {
+        "home": { "type": "integer", "minimum": 0 },
+        "away": { "type": "integer", "minimum": 0 },
+        "halfTime": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["home", "away"],
+          "properties": {
+            "home": { "type": "integer", "minimum": 0 },
+            "away": { "type": "integer", "minimum": 0 }
+          }
+        }
+      }
+    },
+    "scorers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["team", "player", "minute", "type"],
+        "properties": {
+          "team": { "type": "string" },
+          "player": { "type": "string" },
+          "minute": { "type": "integer", "minimum": 1 },
+          "assist": { "type": "string" },
+          "type": { "type": "string" }
+        }
+      }
+    },
+    "lineups": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["home", "away"],
+      "properties": {
+        "home": { "$ref": "#/$defs/lineup" },
+        "away": { "$ref": "#/$defs/lineup" }
+      }
+    }
+  },
+  "$defs": {
+    "lineup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["team", "formation", "coach", "startingXI", "bench"],
+      "properties": {
+        "team": { "type": "string" },
+        "formation": { "type": "string" },
+        "coach": { "type": "string" },
+        "startingXI": { "type": "array", "minItems": 11, "maxItems": 11, "items": { "$ref": "#/$defs/player" } },
+        "bench": { "type": "array", "items": { "$ref": "#/$defs/player" } }
+      }
+    },
+    "player": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "number", "position"],
+      "properties": {
+        "name": { "type": "string" },
+        "number": { "type": "integer", "minimum": 1 },
+        "position": { "type": "string" }
+      }
+    }
+  }
+}

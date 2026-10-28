@@ -34,14 +34,12 @@
       "team": "Japan",
       "player": "Saki Kumagai",
       "minute": 90,
-      "addedTime": 2,
       "type": "penalty"
     },
     {
       "team": "Japan",
       "player": "Momoko Tanikawa",
       "minute": 90,
-      "addedTime": 6,
       "type": "open_play"
     }
   ],

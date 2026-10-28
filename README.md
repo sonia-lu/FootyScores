@@ -4,7 +4,8 @@ Builds a reference definition of the API endpoints for every Paris 2024
 Olympic football match (58 in all), for use in automated API testing.
 
 Each match gets one endpoint, `GET /match/<id>`, and an expected response in
-the structure of `example.json`. The id is the official Olympic match code,
+exactly the structure of `example.json` (written down as a JSON Schema in
+`schema/match.schema.json`). The id is the official Olympic match code,
 e.g. `/match/FBLMTEAM11------------GPB-000100--` (Argentina v Morocco).
 
 ## Install
@@ -28,6 +29,14 @@ python3 src/FootyScores.py           # list all endpoints, using the stored data
 python3 src/FootyScores.py --fetch   # download the data from olympics.com again first
 ```
 
+| Option | Effect |
+| --- | --- |
+| `--fetch` | Download the data from olympics.com into `data/raw/` first |
+| `--out DIR` | Write the responses to `DIR` instead of `reference/` |
+| `--extended` | Add `addedTime` to stoppage-time goals (see [below](#how-response-fields-are-filled)) |
+| `--serve [PORT]` | Run the local API afterwards (see [Calling an endpoint](#calling-an-endpoint)) |
+| `--host HOST` | Address the API listens on (default `127.0.0.1`) |
+
 Running the tool prints one endpoint per match, in kickoff order:
 
 ```
@@ -37,8 +46,11 @@ GET /match/FBLMTEAM11------------GPC-000100--
 GET /match/FBLWTEAM11------------FNL-000100--
 ```
 
-Each run also brings `reference/` up to date. It holds the expected response
-for every endpoint. Only files whose content changed are rewritten.
+Each run also brings `reference/` (or the `--out` folder) up to date. It
+holds the expected response for every endpoint. Only files whose content
+changed are rewritten, so with the committed data a plain run changes nothing.
+Old `match/*.json` files of matches that no longer exist are deleted; nothing
+else in the folder is touched.
 
 A fetch only replaces the stored data once all 58 matches have downloaded
 successfully. If a download fails, `data/raw/` stays as it was and no
@@ -94,8 +106,11 @@ The tests use only Python's built-in `unittest` and build into a temporary
 folder, so they never change `reference/`. They check that:
 
 - there is exactly one endpoint per match, sorted by kickoff;
-- every response has the `example.json` structure, and its scorers add up to
-  the final score;
+- `example.json` and all 58 responses pass `schema/match.schema.json`, and
+  every response's scorers add up to its final score;
+- the match list agrees with the official competition schedule (see
+  [Data sources](#data-sources));
+- `--extended` only adds `addedTime` and changes nothing else;
 - the committed `reference/` matches what the code produces from `data/raw/`
   (so a code change that alters a response must also update `reference/`);
 - inconsistent data or corrections stop the build;
@@ -133,10 +148,12 @@ src/                              all the code
 data/raw/                         source data, stored exactly as downloaded
   SCH_StartList.json              list of all matches
   RES_ByRSC_H2H/<id>.json         full result for each match
+  SCH_MainGridUnits.json          competition schedule, all sports (used by the tests)
 data/corrections.json             hand-checked fixes for gaps in the source data
 reference/                        generated, kept up to date on every run
   endpoints.json                  index of every endpoint (see below)
   match/<id>.json                 expected response for GET /match/<id>
+schema/match.schema.json          JSON Schema of a response, made from example.json
 tests/                            automated tests
 ```
 
@@ -176,6 +193,21 @@ official olympics.com match code, e.g. `FBLMTEAM11------------GPB-000100--`:
 
 The dashes are part of the code and need no URL escaping.
 
+## Data sources
+
+The brief points to the olympics.com competition schedule. That page is
+built from `SCH_MainGridUnits`, which lists each football match only with its
+kickoff time, tournament (men's or women's) and a medal code. It has no match
+ids, teams, scores or line-ups, so the reference is built from two other
+files from the same olympics.com data service:
+
+- `SCH_StartList` - every match with its id, kickoff and teams;
+- `RES_ByRSC_H2H/<id>` - the full result of one match (score, goals, line-ups).
+
+`SCH_MainGridUnits` is stored too, and the tests check that both sources
+agree: per tournament, the same 58 kickoff times, and the gold and bronze
+medal matches at the same kickoffs.
+
 ## Guarantees
 
 - One endpoint per match: no duplicates (the build fails if a match id appears
@@ -199,16 +231,20 @@ The dashes are part of the code and need no URL escaping.
 | `score` | Score after normal/extra time; shoot-out kicks are not included |
 | `scorers.team` | Team credited with the goal (for own goals, the opponent) |
 | `scorers.type` | `open_play`, `penalty`, `free_kick` or `own_goal` |
-| `scorers.minute` | Minute of the goal as a number, e.g. `23` |
-| `scorers.addedTime` | Only for stoppage-time goals: `90' +3` gives `"minute": 90, "addedTime": 3` |
+| `scorers.minute` | Minute of the goal as a number: `23'` gives `23`, `90' +3` gives `90` |
+| `scorers.addedTime` | Only with `--extended`, only on stoppage-time goals: `90' +3` gives `3` |
 | `position` | `GK`, `DF`, `MF` or `FW` (see below) |
 
-**Differences from `example.json`:**
+**Stoppage time.** `example.json` has only a whole-number `minute`, so by
+default a goal at `90' +17` is `"minute": 90`, the minute after which the
+stoppage time was played. Turning it into `107` would look like an extra-time
+goal. The
+added time is not lost: `--extended` keeps it in an extra `addedTime` field
+(25 goals have one). That field is not part of `example.json`, which is why it
+is off by default and the extended output does not pass the schema.
 
-- **`addedTime`** is an extra field that `example.json` does not have. Without
-  it, a goal at `90' +17` would have to be either `107`, which looks like an
-  extra-time goal, or `90`, which loses information. It only appears on
-  stoppage-time goals, so other goals have exactly the `example.json` fields.
+**Values that differ from `example.json`:**
+
 - **`position`** uses the four broad positions (`GK`, `DF`, `MF`, `FW`), not
   specific ones like `RB`, `CB` or `ST` as in `example.json`. This is a
   choice, not a limit of the data: the source also gives every starter a
@@ -224,9 +260,42 @@ match id that does not exist, or if a match's scorers then do not add up to
 its final score. Each entry gives a reason and a source, and every corrected
 match says so in its `notes` in `reference/endpoints.json`.
 
+Why correct the data instead of keeping the source's play-by-play and adding
+a warning? Because tests treat the reference as the truth. A response that
+says 3-0 but lists only one scorer contradicts itself, and every test that
+checks scorers against the score would fail for a reason outside the API.
+The correction keeps the reference consistent, and `notes` makes it visible.
+
 Current correction: USA 3-0 Guinea (men's Group A,
 `FBLMTEAM11------------GPA-000600--`). The olympics.com play-by-play only
 records the 75' goal. The 14' (Mihailovic, free kick) and 31' (Paredes, assist
 Aaronson) goals are added from the U.S. Soccer match report; the same
 olympics.com file's player stats agree (Mihailovic 1 goal, Paredes 2,
 Aaronson 1 assist, 2 goals in the first half).
+
+## Using it in a test pipeline
+
+What each part is for, when testing a real football-scores API:
+
+1. **Contract tests** - validate every response of the API under test against
+   `schema/match.schema.json` with any JSON Schema tool (e.g. `jsonschema` in
+   Python, `ajv` in JavaScript, or Postman's `pm.response.to.have.jsonSchema`).
+   This catches missing, renamed or wrongly typed fields, independent of the
+   data.
+2. **Data tests** - for each entry in `reference/endpoints.json`, call
+   `endpoint` on the API under test and compare the body with the `response`
+   file. Matches with `notes` contain hand-made corrections; a test can report
+   those separately, since the API may follow the uncorrected source.
+3. **Mock for consumers** - `--serve` gives client applications and their
+   tests a stable, offline stand-in for the real API, including the `404` for
+   unknown ids.
+
+To keep the reference trustworthy:
+
+- **Pin it.** Point tests at a commit of this repository, so an expected
+  response never changes under a running test.
+- **Refresh it deliberately.** Run `--fetch`, review the diff of `reference/`
+  like code, and commit it. The build stops if the new data contradicts
+  itself, and CI fails if code and `reference/` disagree.
+- **Write elsewhere when needed.** In a pipeline that must not change the
+  checkout, use `--out` to build into a temporary folder.

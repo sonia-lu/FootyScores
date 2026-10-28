@@ -54,7 +54,6 @@
       "team": "Paraguay",
       "player": "Fabian Balbuena",
       "minute": 90,
-      "addedTime": 3,
       "assist": "Diego Gomez",
       "type": "open_play"
     },
@@ -62,7 +61,6 @@
       "team": "Paraguay",
       "player": "Marcelo Fernandez",
       "minute": 90,
-      "addedTime": 6,
       "type": "open_play"
     }
   ],

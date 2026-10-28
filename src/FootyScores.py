@@ -28,9 +28,10 @@ at the same time, the match id decides the order.
 import argparse
 import sys
 import urllib.error
+from pathlib import Path
 
 from build import build
-from config import DEFAULT_PORT, HOST
+from config import DEFAULT_PORT, HOST, REFERENCE_DIR, ROOT
 from fetch import fetch
 from serve import serve
 
@@ -58,6 +59,18 @@ def main() -> None:
         default=HOST,
         help=f"address the API listens on (default {HOST}, this computer only; 0.0.0.0 = all networks)",
     )
+    parser.add_argument(
+        "--extended",
+        action="store_true",
+        help='add "addedTime" to stoppage-time goals (not in example.json, so off by default)',
+    )
+    parser.add_argument(
+        "--out",
+        type=Path,
+        default=REFERENCE_DIR,
+        metavar="DIR",
+        help=f"folder to write the responses to (default {REFERENCE_DIR.relative_to(ROOT)}/)",
+    )
     args = parser.parse_args()
 
     if args.serve is not None and not 1 <= args.serve <= 65535:
@@ -66,12 +79,12 @@ def main() -> None:
     try:
         if args.fetch:
             fetch()
-        endpoints = build()
+        endpoints = build(args.out, args.extended)
     except (urllib.error.URLError, OSError, ValueError, KeyError) as error:
         sys.exit(f"Failed: {error}")
 
     if args.serve is not None:
-        serve(endpoints, args.host, args.serve)
+        serve(endpoints, args.out, args.host, args.serve)
         return
 
     for item in endpoints:

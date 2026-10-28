@@ -10,6 +10,8 @@ import urllib.request
 
 from build import match_list
 from config import (
+    MAIN_GRID_FILE,
+    MAIN_GRID_URL,
     MATCH_RAW_DIR,
     MATCH_URL,
     RAW_DIR,
@@ -45,7 +47,7 @@ def download(url: str) -> bytes:
 
 
 def fetch() -> None:
-    """Download the start list and every match result into data/raw/."""
+    """Download the start list, the competition schedule and every match result into data/raw/."""
     start_list = download(START_LIST_URL)
     matches = match_list(json.loads(start_list))
 
@@ -55,6 +57,7 @@ def fetch() -> None:
     try:
         (temp_dir / MATCH_RAW_DIR.name).mkdir(parents=True)
         (temp_dir / START_LIST_FILE.name).write_bytes(start_list)
+        (temp_dir / MAIN_GRID_FILE.name).write_bytes(download(MAIN_GRID_URL))
 
         match_number = 0
         for match in matches:
