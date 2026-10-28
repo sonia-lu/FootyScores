@@ -58,7 +58,8 @@
     {
       "team": "France",
       "player": "Jean-Philippe Mateta",
-      "minute": 93,
+      "minute": 90,
+      "addedTime": 3,
       "type": "penalty"
     },
     {
@@ -71,7 +72,8 @@
     {
       "team": "Spain",
       "player": "Sergio Camello",
-      "minute": 121,
+      "minute": 120,
+      "addedTime": 1,
       "assist": "Arnau Tenas",
       "type": "open_play"
     }

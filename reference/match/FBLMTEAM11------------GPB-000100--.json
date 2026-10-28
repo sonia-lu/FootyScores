@@ -26,7 +26,8 @@
     {
       "team": "Morocco",
       "player": "Soufiane Rahimi",
-      "minute": 47,
+      "minute": 45,
+      "addedTime": 2,
       "assist": "Bilal El Khannouss",
       "type": "open_play"
     },

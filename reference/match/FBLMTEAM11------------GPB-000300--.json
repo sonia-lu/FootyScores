@@ -33,7 +33,8 @@
     {
       "team": "Iraq",
       "player": "Aymen Hussein",
-      "minute": 49,
+      "minute": 45,
+      "addedTime": 4,
       "assist": "Ahmed Hasan",
       "type": "open_play"
     },

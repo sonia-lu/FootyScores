@@ -5,7 +5,8 @@ from pathlib import Path
 
 # --- paths -------------------------------------------------------------------
 
-ROOT = Path(__file__).resolve().parent
+# The project folder: one level above src/, where this file is.
+ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 START_LIST_FILE = RAW_DIR / "SCH_StartList.json"
 MATCH_RAW_DIR = RAW_DIR / "RES_ByRSC_H2H"

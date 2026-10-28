@@ -32,7 +32,8 @@
     {
       "team": "Argentina",
       "player": "Claudio Echeverri",
-      "minute": 91,
+      "minute": 90,
+      "addedTime": 1,
       "type": "open_play"
     }
   ],

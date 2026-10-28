@@ -26,7 +26,8 @@
     {
       "team": "United States",
       "player": "Trinity Rodman",
-      "minute": 107,
+      "minute": 105,
+      "addedTime": 2,
       "assist": "Crystal Dunn",
       "type": "open_play"
     }

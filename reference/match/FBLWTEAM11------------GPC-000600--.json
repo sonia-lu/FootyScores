@@ -46,7 +46,8 @@
     {
       "team": "Japan",
       "player": "Hikaru Kitagawa",
-      "minute": 50,
+      "minute": 45,
+      "addedTime": 5,
       "type": "free_kick"
     }
   ],

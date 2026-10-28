@@ -11,6 +11,6 @@ data/raw.tmp/
 # macOS
 .DS_Store
 
-# VSCode folders
-.github/
+# Editor and Copilot settings (.github/workflows/ is committed: it runs the tests)
+.github/copilot-instructions.md
 .vscode/
